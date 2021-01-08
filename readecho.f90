@@ -18,7 +18,7 @@
         open(10,file='data_1961')
 
         do i = 1, len_data_1961
-            read(10,'(f8.2,f7.3,f8.4,f8.5,f8.6,f8.6,f9.7)') data_1961(:,i)
+            read(10,'(f8.2,f7.3,f8.4,f8.5,f8.6,f9.6,f9.7)') data_1961(:,i)
         end do
 
         close(10)
