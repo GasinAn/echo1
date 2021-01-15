@@ -12,7 +12,7 @@
     integer,dimension(2,(n_max+4)*(n_max-1)/2) :: nm
     real(wp),dimension(2,(n_max+4)*(n_max-1)/2) :: cs
 
-    integer,parameter :: len_data_1961 = 80
+    integer,parameter :: len_data_1961 = 110
     real(wp),dimension(len_data_1961) :: t_1961
     real(wp),dimension(3,len_data_1961) :: xyz_1961
 
