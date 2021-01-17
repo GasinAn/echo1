@@ -11,7 +11,7 @@
     integer,parameter :: n_max = 100
     real(wp),dimension(0:n_max,0:n_max) :: c, s
 
-    integer,parameter :: len_data_1961 = 110
+    integer,parameter :: len_data_1961 = 141
     real(wp),dimension(len_data_1961) :: t_1961
     real(wp),dimension(3,len_data_1961) :: xyz_1961
 
