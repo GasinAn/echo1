@@ -18,9 +18,15 @@
         open(10,file='data_1961')
 
         do i = 1, len_data_1961
-            read(10,'(f8.2,f7.3,f9.4,f8.5,f8.6,f9.6,f9.7)') data_1961(:,i)
+            read(10,'(f8.2,f7.3,f10.5,f8.5,f8.6,f9.6,f9.7)') data_1961(:,i)
         end do
-
+        print *, data_1961(1,:)
+        print *, data_1961(2,:)
+        print *, data_1961(3,:)
+        print *, data_1961(4,:)
+        print *, data_1961(5,:)
+        print *, data_1961(6,:)
+        print *, data_1961(7,:)
         close(10)
 
         data_1961(3,:) = data_1961(3,:)+3.508e-5_wp*(data_1961(1,:)-33281.0_wp)
