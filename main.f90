@@ -9,11 +9,20 @@
     implicit none
 
     integer,parameter :: n_max = 100
-    real(wp),dimension(0:n_max,0:n_max) :: c, s
+    real(wp),dimension(0:n_max,0:n_max) :: c_matrix, s_matrix
 
     integer,parameter :: len_data_1961 = 152
     real(wp),dimension(len_data_1961) :: t_1961
     real(wp),dimension(3,len_data_1961) :: xyz_1961
+
+    real(wp),dimension(1:n_max,0:n_max-1) :: a
+    real(wp),dimension(1:n_max) :: b
+    real(wp),dimension(2:n_max,0:n_max-2) :: c
+    real(wp),dimension(2:n_max) :: d
+    real(wp),dimension(2:n_max,0:n_max-1) :: e
+    real(wp),dimension(0:n_max,0:n_max) :: p
+
+    real(wp),dimension(3) :: f
 
     procedure(deriv_func) :: fcn
     !! subroutine computing the value of \(dy/dx=f(x,y)\)
@@ -24,12 +33,18 @@
     real(wp),dimension(6) :: y  = [1.0_wp,0.0_wp,0.0_wp,0.0_wp,1.0_wp,0.0_wp]
     !! `y` value (input is initial value and output is final value)    
 !-------------------------------------------------------------------------------
-    call readegm(n_max,c,s)
+    call readegm(n_max, c_matrix, s_matrix)
 
-    call readecho(len_data_1961,t_1961,xyz_1961)
+    call readecho(len_data_1961, t_1961, xyz_1961)
 
-    call easydop853(fcn,x,xf,y)
-    
+    call getabcdep(n_max, a, b, c, d, e, p)
+
+    call getfe(2.0_wp**(1.0_wp/3.0_wp), 0.0_wp, 0.0_wp, &
+               n_max, a, b, c, d, e, c_matrix, s_matrix, p, f)
+
+    call easydop853(fcn, x, xf, y)
+
+    print *, f
     print *, x
     print *, y
 
