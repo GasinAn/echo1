@@ -1,3 +1,4 @@
+
       subroutine PLEPH( TDB, NTARG, NCENT, PV)
 C
 C++++++++++++++++++++++++++
@@ -639,8 +640,8 @@ C     The user must select one of the following by deleting the 'C' in column 1
 C ************************************************************************
 
 C        call FSIZER1(NRECL,KSIZE,NRFILE,NAMFIL)
-        call FSIZER2(NRECL,KSIZE,NRFILE,NAMFIL)
-C        call FSIZER3(NRECL,KSIZE,NRFILE,NAMFIL)
+C        call FSIZER2(NRECL,KSIZE,NRFILE,NAMFIL)
+        call FSIZER3(NRECL,KSIZE,NRFILE,NAMFIL)
 
 C ************************************************************************
 C ************************************************************************
@@ -985,7 +986,7 @@ C
 C     NRECL=4 if "RECL" in the OPEN statement is the record length in bytes
 C     (for Unix/Linux, NRECL is probably 4)
 
-C       NRECL =
+       NRECL = 1
 
 C  *****************************************************************
 
@@ -1010,7 +1011,7 @@ C     For  de414 through de429,  set KSIZE to 2036
 C     For  de430 & de431, versions without TT-TDB have KSIZE = 2036
 C                         versions with    TT-TDB have KSIZE = 1964
 
-C      KSIZE = 
+      KSIZE = 1964
 
 C  *****************************************************************
 C  *******************************************************************

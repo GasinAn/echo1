@@ -35,16 +35,27 @@
 !-------------------------------------------------------------------------------
     call readegm(n_max, c_matrix, s_matrix)
 
+    print *, 'readegm ok!'
+
     call readecho(len_data_1961, t_1961, xyz_1961)
 
+    print *, 'readecho ok!'
+
     call getabcdep(n_max, a, b, c, d, e, p)
+
+    print *, 'getabcdep ok!'
 
     call getfe(2.0_wp**(1.0_wp/3.0_wp), 0.0_wp, 0.0_wp, &
                n_max, a, b, c, d, e, c_matrix, s_matrix, p, f)
 
+    print *, sum(f**2.0_wp)**0.5_wp
+
+    call getfp(2436294.5_wp, [8000000.0_wp,0.0_wp,0.0_wp], f)
+
+    print *, sum(f**2.0_wp)**0.5_wp
+
     call easydop853(fcn, x, xf, y)
 
-    print *, f
     print *, x
     print *, y
 
