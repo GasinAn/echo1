@@ -45,7 +45,7 @@
 
     print *, 'getabcdep ok!'
 
-    call getfe(2.0_wp**(1.0_wp/3.0_wp), 0.0_wp, 0.0_wp, &
+    call getfe(36294.0D0, 2.0_wp**(1.0_wp/3.0_wp), 0.0_wp, 0.0_wp, &
                n_max, a, b, c, d, e, c_matrix, s_matrix, p, f)
 
     print *, sum(f**2.0_wp)**0.5_wp
@@ -54,7 +54,7 @@
 
     print *, sum(f**2.0_wp)**0.5_wp
 
-    call getdtttut1(36294.0D0, x)
+    call tt2ut1(36294.0D0, x)
     print *, x
 
     call getpmx(36294.0D0, x)

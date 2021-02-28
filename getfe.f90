@@ -1,12 +1,12 @@
 ﻿
-    subroutine getfe(x, y, z, n_max, a, b, c, d, e, c_matrix, s_matrix, p, f)
+    subroutine getfe(t, x, y, z, n_max, a, b, c, d, e, c_matrix, s_matrix, p, f)
 
         use iso_fortran_env,    only: wp => real64
 
         implicit none
 
         integer,intent(in) :: n_max
-        real(wp),intent(in) :: x, y, z
+        real(wp),intent(in) :: t, x, y, z
         real(wp),dimension(1:n_max,0:n_max-1),intent(in) :: a
         real(wp),dimension(1:n_max),intent(in) :: b
         real(wp),dimension(2:n_max,0:n_max-2),intent(in) :: c
@@ -53,5 +53,7 @@
                   (df(1)*cth-df(2)*sth)]
             f = f+df/r**(n+2)
         end do
+
+        call itrs2gcrs(t, f)
 
     end subroutine getfe
