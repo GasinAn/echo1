@@ -57,6 +57,12 @@
     call getdtttut1(36294.0D0, x)
     print *, x
 
+    call getpmx(36294.0D0, x)
+    print *, x
+
+    call getpmy(36294.0D0, x)
+    print *, x
+
     call easydop853(fcn, x, xf, y)
 
     print *, x
