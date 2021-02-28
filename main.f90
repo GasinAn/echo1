@@ -54,6 +54,9 @@
 
     print *, sum(f**2.0_wp)**0.5_wp
 
+    call getdtttut1(36294.0D0, x)
+    print *, x
+
     call easydop853(fcn, x, xf, y)
 
     print *, x
