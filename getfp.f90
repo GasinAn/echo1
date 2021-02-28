@@ -9,9 +9,9 @@
         real(wp),dimension(3),intent(in) :: p
         real(wp),dimension(3),intent(out) :: f
 
-        real(wp),parameter :: AU = 149597870700.0_wp
-        real(wp),parameter :: GMm = 6.67430D-11*7.3477D22
-        real(wp),parameter :: GMs = 6.67430D-11*1.9891D30
+        real(wp),parameter :: AU = 149597870700.0_wp/6378136.3_wp
+        real(wp),parameter :: GMm = 6.67430D-11*7.3477D22/3986004.415D8
+        real(wp),parameter :: GMs = 6.67430D-11*1.9891D30/3986004.415D8
         real(wp),dimension(6) :: pvme
         real(wp),dimension(6) :: pvse
         real(wp),dimension(3) :: pme

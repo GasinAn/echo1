@@ -54,4 +54,6 @@
                        -(sin(Ra)*sin(ap)-cos(Ra)*cos(ic)*cos(ap))*y
         xyz_1961(3,:) = sin(ic)*sin(ap)*x+sin(ic)*cos(ap)*y
 
+        xyz_1961 = xyz_1961/6378136.3_wp
+
     end subroutine readecho

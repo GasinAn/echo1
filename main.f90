@@ -50,7 +50,7 @@
 
     print *, sum(f**2.0_wp)**0.5_wp
 
-    call getfp(2436294.5_wp, [8000000.0_wp,0.0_wp,0.0_wp], f)
+    call getfp(2436294.5_wp, [8000000.0_wp/6378136.3_wp,0.0_wp,0.0_wp], f)
 
     print *, sum(f**2.0_wp)**0.5_wp
 
