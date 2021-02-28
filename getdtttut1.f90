@@ -8,9 +8,9 @@
         real(wp),intent(in) :: ttmjd
         real(wp),intent(out) :: dtttut1mjd
 
-        dtttut1mjd = -8.44142565D-13*ttmjd**2 &
-                     +1.01484504D-07*ttmjd    &
-                     -2.25796675D-03          &
-                     +7.91932922D-06*sin(8.95775798D-04*ttmjd-5.18784739D-01)
+        dtttut1mjd = -8.44128673D-13*ttmjd**2 &
+                     +1.01483271D-07*ttmjd    &
+                     -2.25794010D-03          &
+                     +7.91984037D-06*sin(8.95765509D-04*ttmjd-5.18352618D-01)
 
     end subroutine getdtttut1
