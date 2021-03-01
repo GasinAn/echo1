@@ -8,12 +8,12 @@
 !-------------------------------------------------------------------------------
     implicit none
 
-    integer,parameter :: n_max = 100
-    real(wp),dimension(0:n_max,0:n_max) :: c_matrix, s_matrix
-
     integer,parameter :: len_data_1961 = 152
     real(wp),dimension(len_data_1961) :: t_1961
     real(wp),dimension(3,len_data_1961) :: pxyz_1961, vxyz_1961
+
+    integer,parameter :: n_max = 100
+    real(wp),dimension(0:n_max,0:n_max) :: c_matrix, s_matrix
 
     real(wp),dimension(1:n_max,0:n_max-1) :: a
     real(wp),dimension(1:n_max) :: b
