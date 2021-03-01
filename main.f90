@@ -13,7 +13,7 @@
 
     integer,parameter :: len_data_1961 = 152
     real(wp),dimension(len_data_1961) :: t_1961
-    real(wp),dimension(3,len_data_1961) :: xyz_1961
+    real(wp),dimension(3,len_data_1961) :: pxyz_1961
 
     real(wp),dimension(1:n_max,0:n_max-1) :: a
     real(wp),dimension(1:n_max) :: b
@@ -37,7 +37,7 @@
 
     print *, 'readegm ok!'
 
-    call readecho(len_data_1961, t_1961, xyz_1961)
+    call readecho(len_data_1961, t_1961, pxyz_1961)
 
     print *, 'readecho ok!'
 
