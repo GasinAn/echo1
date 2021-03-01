@@ -1,5 +1,5 @@
 
-    subroutine readecho(len_data_1961,t_1961,pxyz_1961)
+    subroutine readecho(len_data_1961,t_1961,pxyz_1961,vxyz_1961)
 
         use iso_fortran_env,    only: wp => real64
 
@@ -7,15 +7,16 @@
 
         integer,intent(in) :: len_data_1961
         real(wp),dimension(len_data_1961),intent(out) :: t_1961
-        real(wp),dimension(3,len_data_1961),intent(out) :: pxyz_1961
+        real(wp),dimension(3,len_data_1961),intent(out) :: pxyz_1961, vxyz_1961
 
         integer                             :: i
-        double precision                    :: gmst, era, iau_GMST06, iau_ERA00
+        double precision                    :: gmst, era
+        double precision                    :: iau_GMST06, iau_ERA00
         real(wp)                            :: tt, ut
         real(wp),dimension(7,len_data_1961) :: data_1961
         real(wp),dimension(len_data_1961)   :: e, M, q, Ra, ic, ap
         real(wp),dimension(len_data_1961)   :: Ea, a
-        real(wp),dimension(len_data_1961)   :: px, py
+        real(wp),dimension(len_data_1961)   :: px, py, vx, vy
         real(wp),dimension(3,3)             :: rc2i, ri2c
 
         open(10,file='data_1961')
@@ -43,9 +44,11 @@
             Ea = M+e*sin(Ea)
         end if
 
-        a = q/(1.0_wp-e)
-        px = a*(cos(Ea)-e)
+        a = q/(1.0_wp-e)/6378136.3_wp
+        px = a*(+cos(Ea)-e)
         py = a*(sqrt(1.0_wp-e**2.0_wp)*sin(Ea))
+        vx = sqrt(a/(px**2.0_wp+py**2.0_wp))*(-sin(Ea))
+        vy = sqrt(a/(px**2.0_wp+py**2.0_wp))*(sqrt(1.0_wp-e**2.0_wp)*cos(Ea))
 
         Ra = data_1961(3,:)
         ic = data_1961(4,:)
@@ -57,7 +60,11 @@
                         -(sin(Ra)*sin(ap)-cos(Ra)*cos(ic)*cos(ap))*py
         pxyz_1961(3,:) =  sin(ic)*sin(ap)*px+sin(ic)*cos(ap)*py
 
-        pxyz_1961 = pxyz_1961/6378136.3_wp
+        vxyz_1961(1,:) = (cos(Ra)*cos(ap)-sin(Ra)*cos(ic)*sin(ap))*vx &
+                        -(cos(Ra)*sin(ap)+sin(Ra)*cos(ic)*cos(ap))*vy
+        vxyz_1961(2,:) = (sin(Ra)*cos(ap)+cos(Ra)*cos(ic)*sin(ap))*vx &
+                        -(sin(Ra)*sin(ap)-cos(Ra)*cos(ic)*cos(ap))*vy
+        vxyz_1961(3,:) =  sin(ic)*sin(ap)*vx+sin(ic)*cos(ap)*vy
 
         do i = 1, len_data_1961
             tt = t_1961(i)
@@ -68,6 +75,10 @@
                             +sin(gmst-era)*pxyz_1961(2,i)
             pxyz_1961(2,i) =-sin(gmst-era)*pxyz_1961(1,i) &
                             +cos(gmst-era)*pxyz_1961(2,i)
+            vxyz_1961(1,i) = cos(gmst-era)*vxyz_1961(1,i) &
+                            +sin(gmst-era)*vxyz_1961(2,i)
+            vxyz_1961(2,i) =-sin(gmst-era)*vxyz_1961(1,i) &
+                            +cos(gmst-era)*vxyz_1961(2,i)
         end do
 
         do i = 1, len_data_1961
@@ -92,6 +103,15 @@
             pxyz_1961(3,i) = ri2c(3,1)*pxyz_1961(1,i) &
                             +ri2c(3,2)*pxyz_1961(2,i) &
                             +ri2c(3,3)*pxyz_1961(3,i)
+            vxyz_1961(1,i) = ri2c(1,1)*vxyz_1961(1,i) &
+                            +ri2c(1,2)*vxyz_1961(2,i) &
+                            +ri2c(1,3)*vxyz_1961(3,i)
+            vxyz_1961(2,i) = ri2c(2,1)*vxyz_1961(1,i) &
+                            +ri2c(2,2)*vxyz_1961(2,i) &
+                            +ri2c(2,3)*vxyz_1961(3,i)
+            vxyz_1961(3,i) = ri2c(3,1)*vxyz_1961(1,i) &
+                            +ri2c(3,2)*vxyz_1961(2,i) &
+                            +ri2c(3,3)*vxyz_1961(3,i)
         end do
 
     end subroutine readecho
