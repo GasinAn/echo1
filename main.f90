@@ -21,7 +21,6 @@
     real(wp),dimension(2:n_max) :: d
     real(wp),dimension(2:n_max,0:n_max-1) :: e
     real(wp),dimension(0:n_max,0:n_max) :: p
-
     real(wp),dimension(3) :: f
 
     procedure(deriv_func) :: fcn
@@ -33,13 +32,13 @@
     real(wp),dimension(6) :: y  = [1.0_wp,0.0_wp,0.0_wp,0.0_wp,1.0_wp,0.0_wp]
     !! `y` value (input is initial value and output is final value)    
 !-------------------------------------------------------------------------------
-    call readegm(n_max, c_matrix, s_matrix)
-
-    print *, 'readegm ok!'
-
     call readecho(len_data_1961, t_1961, pxyz_1961, vxyz_1961)
 
     print *, 'readecho ok!'
+
+    call readegm(n_max, c_matrix, s_matrix)
+
+    print *, 'readegm ok!'
 
     call getabcdep(n_max, a, b, c, d, e, p)
 
@@ -53,15 +52,6 @@
     call getfp(2436294.5_wp, [8000000.0_wp/6378136.3_wp,0.0_wp,0.0_wp], f)
 
     print *, sum(f**2.0_wp)**0.5_wp
-
-    call tt2ut1(36294.0D0, x)
-    print *, x
-
-    call getpmx(36294.0D0, x)
-    print *, x
-
-    call getpmy(36294.0D0, x)
-    print *, x
 
     call easydop853(fcn, x, xf, y)
 
