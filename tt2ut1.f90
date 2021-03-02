@@ -15,4 +15,3 @@
                  -7.91984037D-06*sin(8.95765509D-04*ttmjd-5.18352618D-01)
 
     end subroutine tt2ut1
-
