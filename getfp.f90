@@ -12,26 +12,26 @@
         real(wp),parameter :: AU = 149597870700.0_wp/6378136.3_wp
         real(wp),parameter :: GMm = 6.67430D-11*7.3477D22/3986004.415D8
         real(wp),parameter :: GMs = 6.67430D-11*1.9891D30/3986004.415D8
-        real(wp),dimension(6) :: pvme
-        real(wp),dimension(6) :: pvse
-        real(wp),dimension(3) :: pme
-        real(wp),dimension(3) :: pse
+        real(wp),dimension(6) :: pvem
+        real(wp),dimension(6) :: pves
+        real(wp),dimension(3) :: pem
+        real(wp),dimension(3) :: pes
         real(wp),dimension(3) :: pm
         real(wp),dimension(3) :: ps
         real(wp),dimension(3) :: fm
         real(wp),dimension(3) :: fs
 
-        call PLEPH(TDB, 3, 10, pvme)
-        call PLEPH(TDB, 3, 11, pvse)
+        call PLEPH(TDB, 10, 3, pvem)
+        call PLEPH(TDB, 11, 3, pves)
 
-        pme = pvme(1:3)*AU
-        pse = pvse(1:3)*AU
+        pem = pvem(1:3)*AU
+        pes = pves(1:3)*AU
 
-        pm = pme-p
-        ps = pse-p
+        pm = pem-p
+        ps = pes-p
 
-        fm = GMm*(pm/sum(pm**2.0_wp)**1.5_wp-pme/sum(pme**2.0_wp)**1.5_wp)
-        fs = GMs*(ps/sum(ps**2.0_wp)**1.5_wp-pse/sum(pse**2.0_wp)**1.5_wp)
+        fm = GMm*(pm/sum(pm**2.0_wp)**1.5_wp-pem/sum(pem**2.0_wp)**1.5_wp)
+        fs = GMs*(ps/sum(ps**2.0_wp)**1.5_wp-pes/sum(pes**2.0_wp)**1.5_wp)
 
         f = fm+fs
 
