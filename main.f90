@@ -13,13 +13,13 @@
     real(wp),dimension(3,len_data_1961) :: pxyz_1961, vxyz_1961
 
     integer,parameter :: n_max = 100
-    real(wp),dimension(0:n_max,0:n_max) :: c_matrix, s_matrix
     real(wp),dimension(1:n_max,0:n_max-1) :: a
     real(wp),dimension(1:n_max) :: b
     real(wp),dimension(2:n_max,0:n_max-2) :: c
     real(wp),dimension(2:n_max) :: d
     real(wp),dimension(2:n_max,0:n_max-1) :: e
-    real(wp),dimension(0:n_max,0:n_max) :: p
+    real(wp),dimension(0:n_max,0:n_max) :: p_matrix
+    real(wp),dimension(0:n_max,0:n_max) :: c_matrix, s_matrix
 
     real(wp),parameter :: s = sqrt(6378136.3D0**3/3986004.415D8)
 
@@ -28,8 +28,8 @@
 
     call readecho(len_data_1961, t_1961, pxyz_1961, vxyz_1961)
 
+    call getabcdep(n_max, a, b, c, d, e, p_matrix)
     call readegm(n_max, c_matrix, s_matrix)
-    call getabcdep(n_max, a, b, c, d, e, p)
 
     t = 0
     pv(1:3) = pxyz_1961(:,1)
@@ -54,8 +54,8 @@
     real(wp),dimension(3) :: fe
     real(wp),dimension(3) :: fp
 
-    call getfe(t_1961(1)+t*s/86400, pv(1), pv(2), pv(3), &
-               n_max, a, b, c, d, e, c_matrix, s_matrix, p, fe)
+    call getfe(t_1961(1)+t*s/86400, pv(1:3), &
+               n_max, a, b, c, d, e, p_matrix, c_matrix, s_matrix, fe)
     call getfp(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fp)
 
     vf(1:3) = pv(4:6)

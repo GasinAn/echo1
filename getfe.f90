@@ -1,26 +1,34 @@
 ﻿
-    subroutine getfe(t, x, y, z, n_max, a, b, c, d, e, c_matrix, s_matrix, p, f)
+    subroutine getfe(t, xyz, n_max, a, b, c, d, e, p, c_matrix, s_matrix, f)
 
         use iso_fortran_env,    only: wp => real64
 
         implicit none
 
         integer,intent(in) :: n_max
-        real(wp),intent(in) :: t, x, y, z
+        real(wp),intent(in) :: t
+        real(wp),dimension(3),intent(in) :: xyz
         real(wp),dimension(1:n_max,0:n_max-1),intent(in) :: a
         real(wp),dimension(1:n_max),intent(in) :: b
         real(wp),dimension(2:n_max,0:n_max-2),intent(in) :: c
         real(wp),dimension(2:n_max),intent(in) :: d
         real(wp),dimension(2:n_max,0:n_max-1),intent(in) :: e
-        real(wp),dimension(0:n_max,0:n_max),intent(in) :: c_matrix, s_matrix
         real(wp),dimension(0:n_max,0:n_max),intent(inout) :: p
+        real(wp),dimension(0:n_max,0:n_max),intent(in) :: c_matrix, s_matrix
         real(wp),dimension(3),intent(out) :: f
 
         integer :: n
-        real(wp) :: r, cth, sth, cph, sph
+        real(wp),dimension(3,3) :: rc2t, rt2c
+        real(wp) :: x, y, z, r, cth, sth, cph, sph
         real(wp),dimension(0:n_max) :: mph, cmph, smph
         real(wp),dimension(0:n_max) :: ccss, sccs, fr, fth, fph
         real(wp),dimension(3) :: df
+
+        call getrc2trt2c(t, rc2t, rt2c)
+
+        x = rc2t(1,1)*xyz(1)+rc2t(1,2)*xyz(2)+rc2t(1,3)*xyz(3)
+        y = rc2t(2,1)*xyz(1)+rc2t(2,2)*xyz(2)+rc2t(2,3)*xyz(3)
+        z = rc2t(3,1)*xyz(1)+rc2t(3,2)*xyz(2)+rc2t(3,3)*xyz(3)
 
         r = sqrt(x**2+y**2+z**2)
         cth = z/r
@@ -54,6 +62,8 @@
             f = f+df/r**(n+2)
         end do
 
-        call itrs2gcrs(t, f)
+        f = [rt2c(1,1)*f(1)+rt2c(1,2)*f(2)+rt2c(1,3)*f(3), &
+             rt2c(2,1)*f(1)+rt2c(2,2)*f(2)+rt2c(2,3)*f(3), &
+             rt2c(3,1)*f(1)+rt2c(3,2)*f(2)+rt2c(3,3)*f(3)]
 
     end subroutine getfe

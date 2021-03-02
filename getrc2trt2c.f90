@@ -1,18 +1,17 @@
 
-    subroutine itrs2gcrs(ttmjd, f)
+    subroutine getrc2trt2c(ttmjd, rc2t, rt2c)
 
         use iso_fortran_env,    only: wp => real64
 
         implicit none
 
         real(wp),intent(in) :: ttmjd
-        real(wp),dimension(3),intent(inout) :: f
+        real(wp),dimension(3,3),intent(out) :: rc2t
+        real(wp),dimension(3,3),intent(out) :: rt2c
 
         real(wp) :: utmjd
         real(wp) :: xp
         real(wp) :: yp
-        real(wp),dimension(3,3) :: rc2t
-        real(wp),dimension(3,3) :: rt2c
 
         call tt2ut1(ttmjd, utmjd)
         call getpmx(ttmjd, xp)
@@ -32,8 +31,5 @@
                 rc2t(1,1)*rc2t(2,2)-rc2t(1,2)*rc2t(2,1)], &
                 [3,3])
 
-        f = [rt2c(1,1)*f(1)+rt2c(1,2)*f(2)+rt2c(1,3)*f(3), &
-             rt2c(2,1)*f(1)+rt2c(2,2)*f(2)+rt2c(2,3)*f(3), &
-             rt2c(3,1)*f(1)+rt2c(3,2)*f(2)+rt2c(3,3)*f(3)]
+    end subroutine getrc2trt2c
 
-    end subroutine itrs2gcrs
