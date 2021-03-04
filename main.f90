@@ -24,7 +24,8 @@
     real(wp),parameter :: s = sqrt(6378136.3D0**3/3986004.415D8)
 
     real(wp)              :: t
-    real(wp),dimension(6) :: pv    
+    real(wp),dimension(6) :: pv
+    real(wp)              :: a_echo, e_echo
 
     call readecho(len_data_1961, t_1961, pxyz_1961, vxyz_1961)
 
@@ -34,11 +35,14 @@
     t = 0
     pv(1:3) = pxyz_1961(:,1)
     pv(4:6) = vxyz_1961(:,1)
-    call easydop853(fnosrp, t, 86400/s, pv)
+    call easydop853(fnosrp, t, (len_data_1961-1)*86400/s, pv)
     print *, pv
 
-    print *, pxyz_1961(:,2)
-    print *, vxyz_1961(:,2)
+    print *, pxyz_1961(:,len_data_1961)
+    print *, vxyz_1961(:,len_data_1961)
+
+    call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
+    print *, a_echo*(1-e_echo)*6378136.3D0, e_echo
 
     contains
 
@@ -59,6 +63,7 @@
     call getfp(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fp)
 
     vf(1:3) = pv(4:6)
+    !vf(4:6) =-pv(1:3)/sum(pv(1:3)**2.0_wp)**1.5_wp
     vf(4:6) = fe+fp
 
     end subroutine fnosrp

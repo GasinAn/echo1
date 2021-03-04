@@ -71,14 +71,14 @@
             call tt2ut1(tt, ut)
             gmst = iau_GMST06(2400000.5D0, ut, 2400000.5D0, tt) ! EQX -> TIO
             era  = iau_ERA00 (2400000.5D0, ut)                  ! CIO -> TIO
-            pxyz_1961(1,i) = cos(gmst-era)*pxyz_1961(1,i) &
-                            +sin(gmst-era)*pxyz_1961(2,i)
-            pxyz_1961(2,i) =-sin(gmst-era)*pxyz_1961(1,i) &
-                            +cos(gmst-era)*pxyz_1961(2,i)
-            vxyz_1961(1,i) = cos(gmst-era)*vxyz_1961(1,i) &
-                            +sin(gmst-era)*vxyz_1961(2,i)
-            vxyz_1961(2,i) =-sin(gmst-era)*vxyz_1961(1,i) &
-                            +cos(gmst-era)*vxyz_1961(2,i)
+            pxyz_1961(1:2,i) = [cos(gmst-era)*pxyz_1961(1,i) &
+                               +sin(gmst-era)*pxyz_1961(2,i), &
+                               -sin(gmst-era)*pxyz_1961(1,i) &
+                               +cos(gmst-era)*pxyz_1961(2,i)]
+            vxyz_1961(1:2,i) = [cos(gmst-era)*vxyz_1961(1,i) &
+                               +sin(gmst-era)*vxyz_1961(2,i), &
+                               -sin(gmst-era)*vxyz_1961(1,i) &
+                               +cos(gmst-era)*vxyz_1961(2,i)]
         end do
 
         do i = 1, len_data_1961
@@ -94,24 +94,24 @@
                 rc2i(1,3)*rc2i(2,1)-rc2i(1,1)*rc2i(2,3), &
                 rc2i(1,1)*rc2i(2,2)-rc2i(1,2)*rc2i(2,1)], &
                 [3,3])
-            pxyz_1961(1,i) = ri2c(1,1)*pxyz_1961(1,i) &
-                            +ri2c(1,2)*pxyz_1961(2,i) &
-                            +ri2c(1,3)*pxyz_1961(3,i)
-            pxyz_1961(2,i) = ri2c(2,1)*pxyz_1961(1,i) &
-                            +ri2c(2,2)*pxyz_1961(2,i) &
-                            +ri2c(2,3)*pxyz_1961(3,i)
-            pxyz_1961(3,i) = ri2c(3,1)*pxyz_1961(1,i) &
-                            +ri2c(3,2)*pxyz_1961(2,i) &
-                            +ri2c(3,3)*pxyz_1961(3,i)
-            vxyz_1961(1,i) = ri2c(1,1)*vxyz_1961(1,i) &
-                            +ri2c(1,2)*vxyz_1961(2,i) &
-                            +ri2c(1,3)*vxyz_1961(3,i)
-            vxyz_1961(2,i) = ri2c(2,1)*vxyz_1961(1,i) &
-                            +ri2c(2,2)*vxyz_1961(2,i) &
-                            +ri2c(2,3)*vxyz_1961(3,i)
-            vxyz_1961(3,i) = ri2c(3,1)*vxyz_1961(1,i) &
-                            +ri2c(3,2)*vxyz_1961(2,i) &
-                            +ri2c(3,3)*vxyz_1961(3,i)
+            pxyz_1961(1:3,i) = [ri2c(1,1)*pxyz_1961(1,i) &
+                               +ri2c(1,2)*pxyz_1961(2,i) &
+                               +ri2c(1,3)*pxyz_1961(3,i), &
+                                ri2c(2,1)*pxyz_1961(1,i) &
+                               +ri2c(2,2)*pxyz_1961(2,i) &
+                               +ri2c(2,3)*pxyz_1961(3,i), &
+                                ri2c(3,1)*pxyz_1961(1,i) &
+                               +ri2c(3,2)*pxyz_1961(2,i) &
+                               +ri2c(3,3)*pxyz_1961(3,i)]
+            vxyz_1961(1:3,i) = [ri2c(1,1)*vxyz_1961(1,i) &
+                               +ri2c(1,2)*vxyz_1961(2,i) &
+                               +ri2c(1,3)*vxyz_1961(3,i), &
+                                ri2c(2,1)*vxyz_1961(1,i) &
+                               +ri2c(2,2)*vxyz_1961(2,i) &
+                               +ri2c(2,3)*vxyz_1961(3,i), &
+                                ri2c(3,1)*vxyz_1961(1,i) &
+                               +ri2c(3,2)*vxyz_1961(2,i) &
+                               +ri2c(3,3)*vxyz_1961(3,i)]
         end do
 
     end subroutine readecho
