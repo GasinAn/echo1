@@ -35,18 +35,12 @@
     t = 0
     pv(1:3) = pxyz_1961(:,1)
     pv(4:6) = vxyz_1961(:,1)
-    call easydop853(fnosrp, t, (len_data_1961-1)*86400/s, pv)
-    print *, pv
-
-    print *, pxyz_1961(:,len_data_1961)
-    print *, vxyz_1961(:,len_data_1961)
-
+    call easydop853(f_nosrp, t, (len_data_1961-1)*86400/s, pv)
     call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
-    print *, a_echo*(1-e_echo)*6378136.3D0, e_echo
 
     contains
 
-    subroutine fnosrp(me,t,pv,vf)
+    subroutine f_nosrp(me,t,pv,vf)
 
     implicit none
 
@@ -63,9 +57,9 @@
     call getfp(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fp)
 
     vf(1:3) = pv(4:6)
-    !vf(4:6) =-pv(1:3)/sum(pv(1:3)**2.0_wp)**1.5_wp
     vf(4:6) = fe+fp
+    !vf(4:6) =-pv(1:3)/sum(pv(1:3)**2.0_wp)**1.5_wp
 
-    end subroutine fnosrp
+    end subroutine f_nosrp
 
     end program main

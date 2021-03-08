@@ -13,5 +13,6 @@
                  -1.01483271D-07*ttmjd    &
                  +8.44128673D-13*ttmjd**2 &
                  -7.91984037D-06*sin(8.95765509D-04*ttmjd-5.18352618D-01)
+        !ut1mjd = ttmjd
 
     end subroutine tt2ut1
