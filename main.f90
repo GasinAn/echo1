@@ -23,6 +23,7 @@
 
     real(wp),parameter :: s = sqrt(6378136.3D0**3/3986004.415D8)
 
+    integer               :: i
     real(wp)              :: t
     real(wp),dimension(6) :: pv
     real(wp)              :: a_echo, e_echo
@@ -32,11 +33,15 @@
     call getabcdep(n_max, a, b, c, d, e, p_matrix)
     call readegm(n_max, c_matrix, s_matrix)
 
-    t = 0
     pv(1:3) = pxyz_1961(:,1)
     pv(4:6) = vxyz_1961(:,1)
-    call easydop853(f_nosrp, t, (len_data_1961-1)*86400/s, pv)
-    call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
+    do i = 1, len_data_1961-1
+        t = (i-1)*86400/s
+        call easydop853(f_nosrp, t, i*86400/s, pv)
+        !call easydop853(f_srp1, t, i*86400/s, pv)
+        call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
+        print *, i+1, a_echo*6378136.3_wp, e_echo
+    end do
 
     contains
 
@@ -61,5 +66,28 @@
     !vf(4:6) =-pv(1:3)/sum(pv(1:3)**2.0_wp)**1.5_wp
 
     end subroutine f_nosrp
+
+    subroutine f_srp1(me,t,pv,vf)
+
+    implicit none
+
+    class(dop853_class),intent(inout) :: me
+    real(wp),intent(in)               :: t
+    real(wp),dimension(:),intent(in)  :: pv
+    real(wp),dimension(:),intent(out) :: vf
+
+    real(wp),dimension(3) :: fe
+    real(wp),dimension(3) :: fp
+    real(wp),dimension(3) :: fsrp
+
+    call getfe(t_1961(1)+t*s/86400, pv(1:3), &
+               n_max, a, b, c, d, e, p_matrix, c_matrix, s_matrix, fe)
+    call getfp(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fp)
+    call srp1(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fsrp)
+
+    vf(1:3) = pv(4:6)
+    vf(4:6) = fe+fp+fsrp
+
+    end subroutine f_srp1
 
     end program main
