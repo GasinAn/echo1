@@ -27,21 +27,36 @@
         real(wp),dimension(3) :: ps
         real(wp) :: des2
         real(wp) :: ds2
+        real(wp) :: dpes
+        real(wp) :: dp
+        real(wp) :: th1
+        real(wp) :: th2
+        real(wp) :: costh
 
         call PLEPH(TDB, 11, 3, pves)
 
-        pes = pves(1:3)
-        ps = pes-p/AU
-        des2 = sum(pes**2)
-        ds2 = sum(ps**2)
-        if ((sum((pes/sqrt(des2))*(ps/sqrt(ds2)))**2+re2/des2) > 1.0_wp) then
-            if (sum(p*pes) > 0.0_wp) then
-                f = an*pes/sqrt(des2)
-            else
-                f = 0.0_wp
-            end if
+        !pes = pves(1:3)
+        !ps = pes-p/AU
+        !des2 = sum(pes**2)
+        !ds2 = sum(ps**2)
+        !if ((sum((pes/sqrt(des2))*(ps/sqrt(ds2)))**2+re2/des2) > 1.0_wp) then
+        !    if (sum(p*pes) > 0.0_wp) then
+        !        f = an*pes/sqrt(des2)
+        !    else
+        !        f = 0.0_wp
+        !    end if
+        !else
+        !    f = an*pes/sqrt(des2)
+        !end if
+        dpes = sqrt(sum(pves(1:3)**2))
+        dp = sqrt(sum(p**2))
+        th1 = asin(6378136.3_wp/(dpes*149597870700.0_wp))
+        th2 = acos(1/dp)
+        costh = sum((p/dp)*(pves(1:3)/dpes))
+        if (costh<sin(th1-th2)) then
+            f = 0.0_wp
         else
-            f = an*pes/sqrt(des2)
+            f = an*(pves(1:3)/dpes)
         end if
 
     end subroutine srp1
