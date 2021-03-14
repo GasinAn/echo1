@@ -53,10 +53,10 @@
         th1 = asin(6378136.3_wp/(dpes*149597870700.0_wp))
         th2 = acos(1/dp)
         costh = sum((p/dp)*(pves(1:3)/dpes))
-        if (costh<sin(th1-th2)) then
-            f = 0.0_wp
-        else
+        if (costh>sin(th1-th2)) then
             f = an*(pves(1:3)/dpes)
+        else
+            f = 0
         end if
 
     end subroutine srp1
