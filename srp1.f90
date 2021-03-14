@@ -12,14 +12,21 @@
         real(wp),parameter :: pi = 3.141592653589793_wp
         real(wp),parameter :: E = 1358.0_wp
         real(wp),parameter :: c = 299792458.0_wp
-        real(wp),parameter :: m = 180.0_wp
+        !real(wp),parameter :: m = 180.0_wp
+        real(wp),parameter :: m = 156.995_wp*0.45359237_wp
+        !real(wp),parameter :: m = (156.995_wp-33.34)*0.45359237_wp
         real(wp),parameter :: d = 30.48_wp
         real(wp),parameter :: r = 0.88_wp
         real(wp),parameter :: s = 0.94_wp
         real(wp),parameter :: bf = 0.79_wp
+        real(wp),parameter :: bb = 0.55_wp
+        real(wp),parameter :: ef = 0.05_wp
+        real(wp),parameter :: eb = 0.05_wp
         real(wp),parameter :: a0 = -(E/c)*(pi*(d/2)**2)/m
-        real(wp),parameter :: ar = ((1+r*s)/2+(2*bf*r*(1-s))/3)*a0
-        real(wp),parameter :: an = ar/(3986004.415D8/6378136.3_wp**2)
+        real(wp),parameter :: k = (1+r*s)/2+bf*(1-s)*r*2/3
+        real(wp),parameter :: kp = k+(1-r)*(ef*bf-eb*bb)/(ef+eb)*2/3
+        real(wp),parameter :: an = k*a0/(3986004.415D8/6378136.3_wp**2)
+        !real(wp),parameter :: an = kp*a0/(3986004.415D8/6378136.3_wp**2)
         real(wp),parameter :: re2 = (6378136.3_wp/149597870700.0_wp)**2
         real(wp),parameter :: AU = 149597870700.0_wp/6378136.3_wp
         real(wp),dimension(6) :: pves

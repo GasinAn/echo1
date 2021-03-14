@@ -37,6 +37,8 @@
     pv(4:6) = vxyz_1961(:,1)
     do i = 1, len_data_1961-1
         t = (i-1)*86400/s
+        !pv(1:3) = pxyz_1961(:,i+1)
+        !pv(4:6) = vxyz_1961(:,i+1)
         !call easydop853(f_nosrp, t, i*86400/s, pv)
         call easydop853(f_srp1, t, i*86400/s, pv)
         !print *, pv
