@@ -36,6 +36,8 @@
         real(wp) :: ds2
         real(wp) :: dpes
         real(wp) :: dp
+        real(wp),dimension(3) :: npes
+        real(wp),dimension(3) :: np
         real(wp) :: th1
         real(wp) :: th2
         real(wp) :: costh
@@ -55,13 +57,16 @@
         !else
         !    f = an*pes/sqrt(des2)
         !end if
-        dpes = sqrt(sum(pves(1:3)**2))
+        pes = pves(1:3)
+        dpes = sqrt(sum(pes**2))
         dp = sqrt(sum(p**2))
         th1 = asin(6378136.3_wp/(dpes*149597870700.0_wp))
         th2 = acos(1/dp)
-        costh = sum((p/dp)*(pves(1:3)/dpes))
+        npes = pes/dpes
+        np = p/dp
+        costh = sum(npes*np)
         if (costh>sin(th1-th2)) then
-            f = an*(pves(1:3)/dpes)
+            f = an*npes
         else
             f = 0
         end if
