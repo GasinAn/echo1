@@ -1,5 +1,5 @@
 
-    subroutine srp1(TDB, p, f)
+    subroutine srp1(TDB, p, pves, f)
 
         use iso_fortran_env,    only: wp => real64
 
@@ -7,6 +7,7 @@
 
         real(wp),intent(in) :: TDB
         real(wp),dimension(3),intent(in) :: p
+        real(wp),dimension(3),intent(in) :: pves
         real(wp),dimension(3),intent(out) :: f
 
         real(wp),parameter :: pi = 3.141592653589793_wp
@@ -29,9 +30,9 @@
         !real(wp),parameter :: an = kp*a0/(3986004.415D8/6378136.3_wp**2)
         real(wp),parameter :: re2 = (6378136.3_wp/149597870700.0_wp)**2
         real(wp),parameter :: AU = 149597870700.0_wp/6378136.3_wp
-        real(wp),dimension(6) :: pves
-        real(wp),dimension(3) :: pes
-        real(wp),dimension(3) :: ps
+        !real(wp),dimension(6) :: pves
+        !real(wp),dimension(3) :: pes
+        !real(wp),dimension(3) :: ps
         real(wp) :: des2
         real(wp) :: ds2
         real(wp) :: dpes
@@ -41,8 +42,6 @@
         real(wp) :: th1
         real(wp) :: th2
         real(wp) :: costh
-
-        call PLEPH(TDB, 11, 3, pves)
 
         !pes = pves(1:3)
         !ps = pes-p/AU
@@ -57,12 +56,11 @@
         !else
         !    f = an*pes/sqrt(des2)
         !end if
-        pes = pves(1:3)
-        dpes = sqrt(sum(pes**2))
+        dpes = sqrt(sum(pves(1:3)**2))
         dp = sqrt(sum(p**2))
         th1 = asin(6378136.3_wp/(dpes*149597870700.0_wp))
         th2 = acos(1/dp)
-        npes = pes/dpes
+        npes = pves(1:3)/dpes
         np = p/dp
         costh = sum(npes*np)
         if (costh>sin(th1-th2)) then

@@ -61,15 +61,20 @@
 
     real(wp)              :: t_mjd
     real(wp)              :: t_jd
+    real(wp),dimension(6) :: pvem
+    real(wp),dimension(6) :: pves
     real(wp),dimension(3) :: fe
     real(wp),dimension(3) :: fp
 
     t_mjd = t_1961(1)+t/day
     t_jd  = 2400000.5D0+t_mjd
-    
+
+    call PLEPH(t_jd, 10, 3, pvem)
+    call PLEPH(t_jd, 11, 3, pves)
+
     call getfe(t_mjd, pv(1:3), &
                n_max, a, b, c, d, e, p_matrix, c_matrix, s_matrix, fe)
-    call getfp(t_jd, pv(1:3), fp)
+    call getfp(t_jd, pv(1:3), pvem, pves, fp)
 
     vf(1:3) = pv(4:6)
     vf(4:6) = fe+fp
@@ -88,17 +93,22 @@
 
     real(wp)              :: t_mjd
     real(wp)              :: t_jd
+    real(wp),dimension(6) :: pvem
+    real(wp),dimension(6) :: pves
     real(wp),dimension(3) :: fe
     real(wp),dimension(3) :: fp
     real(wp),dimension(3) :: fsrp
 
     t_mjd = t_1961(1)+t/day
     t_jd  = 2400000.5D0+t_mjd
-    
+
+    call PLEPH(t_jd, 10, 3, pvem)
+    call PLEPH(t_jd, 11, 3, pves)
+
     call getfe(t_mjd, pv(1:3), &
                n_max, a, b, c, d, e, p_matrix, c_matrix, s_matrix, fe)
-    call getfp(t_jd, pv(1:3), fp)
-    call srp1(t_jd, pv(1:3), fsrp)
+    call getfp(t_jd, pv(1:3), pvem, pves, fp)
+    call srp1(t_jd, pv(1:3), pves, fsrp)
 
     vf(1:3) = pv(4:6)
     vf(4:6) = fe+fp+fsrp
