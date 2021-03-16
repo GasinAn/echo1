@@ -1,5 +1,5 @@
 
-    subroutine srp1(TDB, p, pves, f)
+    subroutine srp1(TDB, p, pes, f)
 
         use iso_fortran_env,    only: wp => real64
 
@@ -7,7 +7,7 @@
 
         real(wp),intent(in) :: TDB
         real(wp),dimension(3),intent(in) :: p
-        real(wp),dimension(3),intent(in) :: pves
+        real(wp),dimension(3),intent(in) :: pes
         real(wp),dimension(3),intent(out) :: f
 
         real(wp),parameter :: pi = 3.141592653589793_wp
@@ -56,11 +56,11 @@
         !else
         !    f = an*pes/sqrt(des2)
         !end if
-        dpes = sqrt(sum(pves(1:3)**2))
+        dpes = sqrt(sum(pes**2))
         dp = sqrt(sum(p**2))
         th1 = asin(6378136.3_wp/(dpes*149597870700.0_wp))
         th2 = acos(1/dp)
-        npes = pves(1:3)/dpes
+        npes = pes/dpes
         np = p/dp
         costh = sum(npes*np)
         if (costh>sin(th1-th2)) then

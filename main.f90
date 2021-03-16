@@ -108,7 +108,7 @@
     call getfe(t_mjd, pv(1:3), &
                n_max, a, b, c, d, e, p_matrix, c_matrix, s_matrix, fe)
     call getfp(t_jd, pv(1:3), pvem, pves, fp)
-    call srp1(t_jd, pv(1:3), pves, fsrp)
+    call srp1(t_jd, pv(1:3), pves(1:3), fsrp)
 
     vf(1:3) = pv(4:6)
     vf(4:6) = fe+fp+fsrp
