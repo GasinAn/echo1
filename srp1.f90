@@ -57,10 +57,10 @@
         !end if
         dpes = sqrt(sum(pves(1:3)**2))
         dp = sqrt(sum(p**2))
-        !th1 = asin(6378136.3_wp/(dpes*149597870700.0_wp))
-        th1 = asin(6428136.3_wp/(dpes*149597870700.0_wp))
-        !th2 = acos(1/dp)
-        th2 = acos((6428136.3_wp/6378136.3_wp)/dp)
+        th1 = asin(6371000.0_wp/(dpes*149597870700.0_wp))
+        !th1 = asin(6421000.0_wp/(dpes*149597870700.0_wp))
+        th2 = acos((6371000.0_wp/6378136.3_wp)/dp)
+        !th2 = acos((6421000.0_wp/6378136.3_wp)/dp)
         costh = sum((p/dp)*(pves(1:3)/dpes))
         if (costh>sin(th1-th2)) then
             f = an*(pves(1:3)/dpes)
