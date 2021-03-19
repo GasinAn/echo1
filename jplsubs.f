@@ -1,4 +1,3 @@
-
       subroutine PLEPH( TDB, NTARG, NCENT, PV)
 C
 C++++++++++++++++++++++++++
@@ -986,7 +985,7 @@ C
 C     NRECL=4 if "RECL" in the OPEN statement is the record length in bytes
 C     (for Unix/Linux, NRECL is probably 4)
 
-       NRECL = 1
+       NRECL = 4
 
 C  *****************************************************************
 
