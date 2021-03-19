@@ -17,6 +17,7 @@
         real(wp),dimension(0:n_max,0:n_max),intent(in) :: c_matrix, s_matrix
         real(wp),dimension(3),intent(out) :: f
 
+        integer :: i
         integer :: n
         real(wp),dimension(3,3) :: rc2t, rt2c
         real(wp) :: x, y, z, r, cth, sth, cph, sph
@@ -41,7 +42,7 @@
                         b(n)*sth*p(n-1,n-1)]
         end do
 
-        mph = [0:n_max]*atan2(y,x)
+        mph = [(i,i=0,n_max)]*atan2(y,x)
         cmph = cos(mph)
         smph = sin(mph)
         cph = cmph(1)
@@ -54,7 +55,7 @@
             fr = d(n)*p(n,0:n)*ccss(0:n)
             fth = [(n*cth*p(n,0:n-1)+e(n,0:n-1)*p(n-1,0:n-1))/sth*ccss(0:n-1), &
                    n*cth*p(n,n)/sth*ccss(n)]
-            fph = [0:n]*p(n,0:n)/sth*sccs(0:n)
+            fph = [(i,i=0,n)]*p(n,0:n)/sth*sccs(0:n)
             df = [sum(fr(0:n)), sum(fth(0:n)), sum(fph(0:n))]
             df = [(df(1)*sth+df(2)*cth)*cph-df(3)*sph, &
                   (df(1)*sth+df(2)*cth)*sph+df(3)*cph, &
