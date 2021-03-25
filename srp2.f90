@@ -44,6 +44,7 @@
         real(wp) :: th4
         real(wp) :: costh12
         real(wp) :: costh34
+        real(wp),dimension(3) :: ps
 
         call PLEPH(TDB, 11, 3, pves)
         call PLEPH(TDB, 10, 3, pvem)
@@ -82,7 +83,9 @@
         costh34 = sum((pm/dpm)*(pms/dpms))
 
         if ((costh12>sin(th1-th2)).and.(costh34>sin(th3-th4))) then
-            f = an*(pes/dpes)
+            !f = an*(pes/dpes)
+            ps = pes-p/AU
+            f = an*(ps/norm2(ps))
         else
             f = 0
         end if

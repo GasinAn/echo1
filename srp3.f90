@@ -57,6 +57,7 @@
         real(wp) :: th12
         real(wp) :: sinth12
         real(wp) :: etae
+        real(wp),dimension(3) :: ps
 
         call PLEPH(TDB, 11, 3, pves)
         call PLEPH(TDB, 10, 3, pvem)
@@ -86,7 +87,9 @@
             th12 = acos(costh12)
             sinth12 = sqrt(1-costh12**2)
             etae = (etae1*((pi-th12)*costh12+sinth12)+etae2)*(Ae/(sum(p**2)))
-            f = an*(etae*np-npes)
+            ps = pes-p/AU
+            f = an*(etae*np-ps/norm2(ps))
+            !f = an*(etae*np-npes)
             !f = an*(-npes)
         else
             f = 0
