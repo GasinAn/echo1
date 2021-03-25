@@ -40,8 +40,9 @@
         !pv(1:3) = pxyz_1961(:,i+1)
         !pv(4:6) = vxyz_1961(:,i+1)
         !call easydop853(f_nosrp, t, i*86400/s, pv)
-        call easydop853(f_srp1, t, i*86400/s, pv)
+        !call easydop853(f_srp1, t, i*86400/s, pv)
         !call easydop853(f_srp2, t, i*86400/s, pv)
+        call easydop853(f_srp3, t, i*86400/s, pv)
         !print *, pv
         call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
         print *, i+1, a_echo*(1-e_echo)*6378136.3_wp, e_echo
@@ -116,5 +117,28 @@
     vf(4:6) = fe+fp+fsrp
 
     end subroutine f_srp2
+
+    subroutine f_srp3(me,t,pv,vf)
+
+    implicit none
+
+    class(dop853_class),intent(inout) :: me
+    real(wp),intent(in)               :: t
+    real(wp),dimension(:),intent(in)  :: pv
+    real(wp),dimension(:),intent(out) :: vf
+
+    real(wp),dimension(3) :: fe
+    real(wp),dimension(3) :: fp
+    real(wp),dimension(3) :: fsrp
+
+    call getfe(t_1961(1)+t*s/86400, pv(1:3), &
+               n_max, a, b, c, d, e, p_matrix, c_matrix, s_matrix, fe)
+    call getfp(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fp)
+    call srp3(2400000.5D0+t_1961(1)+t*s/86400, pv(1:3), fsrp)
+
+    vf(1:3) = pv(4:6)
+    vf(4:6) = fe+fp+fsrp
+
+    end subroutine f_srp3
 
     end program main
