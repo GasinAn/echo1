@@ -63,7 +63,9 @@
         !th2 = acos((6421000.0_wp/6378136.3_wp)/dp)
         costh = sum((p/dp)*(pves(1:3)/dpes))
         if (costh>sin(th1-th2)) then
-            f = an*(pves(1:3)/dpes)
+            !f = an*(pves(1:3)/dpes)
+            ps = pves(1:3)-p/AU
+            f = an*(ps/norm2(ps))
         else
             f = 0
         end if
