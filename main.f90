@@ -39,10 +39,10 @@
         t = (i-1)*86400/s
         !pv(1:3) = pxyz_1961(:,i+1)
         !pv(4:6) = vxyz_1961(:,i+1)
-        !call easydop853(f_nosrp, t, i*86400/s, pv)
+        call easydop853(f_nosrp, t, i*86400/s, pv)
         !call easydop853(f_srp1, t, i*86400/s, pv)
         !call easydop853(f_srp2, t, i*86400/s, pv)
-        call easydop853(f_srp3, t, i*86400/s, pv)
+        !call easydop853(f_srp3, t, i*86400/s, pv)
         !print *, pv
         call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
         print *, i+1, a_echo*(1-e_echo)*6378136.3_wp, e_echo

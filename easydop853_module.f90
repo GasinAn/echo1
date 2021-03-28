@@ -65,9 +65,11 @@
     !! and will not occur if nstiff<=0
     integer               :: nmax   = 2250000
     !! maximal number of allowed steps
-    real(wp),dimension(1) :: rtol   = 1.0e-12_wp
+    !real(wp),dimension(1) :: rtol   = 1.0e-12_wp
+    real(wp),dimension(1) :: rtol   = 1.0e-15_wp
     !! relative tolerance
-    real(wp),dimension(1) :: atol   = 1.0e-24_wp
+    !real(wp),dimension(1) :: atol   = 1.0e-24_wp
+    real(wp),dimension(1) :: atol   = 0.0_wp
     !! absolute tolerance
 
     type(dop853_class) :: prop
