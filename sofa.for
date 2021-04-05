@@ -56,9 +56,9 @@
 *
 *  This revision:  2020 April 1
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -86,7 +86,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -239,9 +239,9 @@
 *
 *  This revision:  2020 April 1
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -265,7 +265,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -414,9 +414,9 @@
 *
 *  This revision:   2013 August 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -451,7 +451,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -609,9 +609,9 @@
 *
 *  Last revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -648,7 +648,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -771,7 +771,7 @@
 *
 *  Notes:
 *
-*  1)  If the s argument is a string, only the leftmost character is
+*  1)  If the S argument is a string, only the leftmost character is
 *      used and no warning status is provided.
 *
 *  2)  The result is computed even if any of the range checks fail.
@@ -783,11 +783,11 @@
 *      first, the smallest taking precedence.
 *
 *
-*  This revision:  2013 December 2
+*  This revision:  2020 August 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -829,7 +829,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -945,9 +945,9 @@
 *
 *  This revision:  2000 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -971,7 +971,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -1087,9 +1087,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -1117,7 +1117,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -1320,9 +1320,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -1343,7 +1343,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -1549,9 +1549,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -1573,7 +1573,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -1784,9 +1784,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -1806,7 +1806,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -2017,9 +2017,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -2055,7 +2055,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -2194,7 +2194,7 @@
 *               (9-11)   v: barycentric observer velocity (vector, c)
 *               (12)     sqrt(1-|v|^2): reciprocal of Lorenz factor
 *               (13-21)  bias-precession-nutation matrix
-*               (22)     longitude + s' (radians)
+*               (22)     adjusted longitude (radians)
 *               (23)     polar motion xp wrt local meridian (radians)
 *               (24)     polar motion yp wrt local meridian (radians)
 *               (25)     sine of geodetic latitude
@@ -2238,6 +2238,9 @@
 *     CONVENTION:  the longitude required by the present routine is
 *     right-handed, i.e. east-positive, in accordance with geographical
 *     convention.
+*
+*     The adjusted longitude stored in the ASTROM array takes into
+*     account the TIO locator and polar motion.
 *
 *  4) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
@@ -2296,18 +2299,22 @@
 *     iau_ATIOQ, iau_ATOIQ, iau_ATCIQ*, and iau_ATICQ*.
 *
 *  Called:
-*     iau_APER     astrometry parameters: update ERA
+*     iau_IR       initialize r-matrix to identity
+*     iau_RZ       rotate around Z-axis
+*     iau_RY       rotate around Y-axis
+*     iau_RX       rotate around X-axis
+*     iau_ANPM     normalize angle into range +/- pi
 *     iau_C2IXYS   celestial-to-intermediate matrix, given X,Y and s
 *     iau_PVTOB    position/velocity of terrestrial station
 *     iau_TRXPV    product of transpose of r-matrix and pv-vector
 *     iau_APCS     astrometry parameters, ICRS-GCRS, space observer
 *     iau_CR       copy r-matrix
 *
-*  This revision:   2017 March 12
+*  This revision:   2021 January 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -2316,18 +2323,43 @@
      :                 THETA, ELONG, PHI, HM, XP, YP, SP, REFA, REFB,
      :                 ASTROM(30)
 
-      DOUBLE PRECISION SL, CL, R(3,3), PVC(3,2), PV(3,2)
+      DOUBLE PRECISION R(3,3), A, B, ERAL, C, PVC(3,2), PV(3,2)
+
+      DOUBLE PRECISION iau_ANPM
 
 * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-*  Longitude with adjustment for TIO locator s'.
-      ASTROM(22) = ELONG + SP
+* Form the rotation matrix, CIRS to apparent [HA,Dec].
+      CALL iau_IR ( R )
+      CALL iau_RZ ( THETA+SP, R )
+      CALL iau_RY ( -XP, R )
+      CALL iau_RX ( -YP, R )
+      CALL iau_RZ ( ELONG, R )
 
-*  Polar motion, rotated onto the local meridian.
-      SL = SIN(ASTROM(22))
-      CL = COS(ASTROM(22))
-      ASTROM(23) = XP*CL - YP*SL
-      ASTROM(24) = XP*SL + YP*CL
+* Solve for local Earth rotation angle.
+      A = R(1,1)
+      B = R(1,2)
+      IF ( A.NE.0D0 .OR. B.NE.0D0 ) THEN
+         ERAL = ATAN2 ( B, A )
+      ELSE
+         ERAL = 0D0
+      END IF
+      ASTROM(28) = ERAL
+
+* Solve for polar motion [X,Y] with respect to local meridian.
+      A = R(1,1)
+      C = R(1,3)
+      ASTROM(23) = ATAN2 ( C, SQRT(A*A+B*B) )
+      A = R(2,3)
+      B = R(3,3)
+      IF ( A.NE.0D0 .OR. B.NE.0D0 ) THEN
+         ASTROM(24) = - ATAN2 ( A, B )
+      ELSE
+         ASTROM(24) = 0D0
+      END IF
+
+*  Adjusted longitude.
+      ASTROM(22) = iau_ANPM ( ERAL - THETA )
 
 *  Functions of latitude.
       ASTROM(25) = SIN(PHI)
@@ -2336,9 +2368,6 @@
 *  Refraction constants.
       ASTROM(29) = REFA
       ASTROM(30) = REFB
-
-*  Local Earth rotation angle.
-      CALL iau_APER ( THETA, ASTROM )
 
 *  Disable the (redundant) diurnal aberration step.
       ASTROM(27) = 0D0
@@ -2362,7 +2391,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -2633,9 +2662,9 @@
 *
 *  This revision:   2013 December 5
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -2697,7 +2726,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -2919,9 +2948,9 @@
 *
 *  This revision:   2017 March 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -3000,7 +3029,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -3212,9 +3241,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -3236,7 +3265,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -3427,9 +3456,9 @@
 *
 *  This revision:   2013 September 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -3444,7 +3473,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -3654,9 +3683,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -3673,7 +3702,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -3804,7 +3833,7 @@
 *               (9-11)   unchanged
 *               (12)     unchanged
 *               (13-21)  unchanged
-*               (22)     longitude + s' (radians)
+*               (22)     adjusted longitude (radians)
 *               (23)     polar motion xp wrt local meridian (radians)
 *               (24)     polar motion yp wrt local meridian (radians)
 *               (25)     sine of geodetic latitude
@@ -3824,6 +3853,9 @@
 *     reference ellipsoid.  TAKE CARE WITH THE LONGITUDE SIGN:  the
 *     longitude required by the present routine is east-positive
 *     (i.e. right-handed), in accordance with geographical convention.
+*
+*     The adjusted longitude stored in the ASTROM array takes into
+*     account the TIO locator and polar motion.
 *
 *  3) The polar motion XP,YP can be obtained from IERS bulletins.  The
 *     values are the coordinates (in radians) of the Celestial
@@ -3881,14 +3913,18 @@
 *     iau_ATIOQ and iau_ATOIQ.
 *
 *  Called:
+*     iau_IR       initialize r-matrix to identity
+*     iau_RZ       rotate around Z-axis
+*     iau_RY       rotate around Y-axis
+*     iau_RX       rotate around X-axis
+*     iau_ANPM     normalize angle into range +/- pi
 *     iau_PVTOB    position/velocity of terrestrial station
-*     iau_APER     astrometry parameters: update ERA
 *
-*  This revision:   2013 September 25
+*  This revision:   2021 January 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -3900,18 +3936,43 @@
       DOUBLE PRECISION CMPS
       PARAMETER ( CMPS = 299792458D0 )
 
-      DOUBLE PRECISION SL, CL, PV(3,2)
+      DOUBLE PRECISION R(3,3), A, B, ERAL, C, PV(3,2)
+
+      DOUBLE PRECISION iau_ANPM
 
 * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-*  Longitude with adjustment for TIO locator s'.
-      ASTROM(22) = ELONG + SP
+* Form the rotation matrix, CIRS to apparent [HA,Dec].
+      CALL iau_IR ( R )
+      CALL iau_RZ ( THETA+SP, R )
+      CALL iau_RY ( -XP, R )
+      CALL iau_RX ( -YP, R )
+      CALL iau_RZ ( ELONG, R )
 
-*  Polar motion, rotated onto the local meridian.
-      SL = SIN(ASTROM(22))
-      CL = COS(ASTROM(22))
-      ASTROM(23) = XP*CL - YP*SL
-      ASTROM(24) = XP*SL + YP*CL
+* Solve for local Earth rotation angle.
+      A = R(1,1)
+      B = R(1,2)
+      IF ( A.NE.0D0 .OR. B.NE.0D0 ) THEN
+         ERAL = ATAN2 ( B, A )
+      ELSE
+         ERAL = 0D0
+      END IF
+      ASTROM(28) = ERAL
+
+* Solve for polar motion [X,Y] with respect to local meridian.
+      A = R(1,1)
+      C = R(1,3)
+      ASTROM(23) = ATAN2 ( C, SQRT(A*A+B*B) )
+      A = R(2,3)
+      B = R(3,3)
+      IF ( A.NE.0D0 .OR. B.NE.0D0 ) THEN
+         ASTROM(24) = - ATAN2 ( A, B )
+      ELSE
+         ASTROM(24) = 0D0
+      END IF
+
+*  Adjusted longitude.
+      ASTROM(22) = iau_ANPM ( ERAL - THETA )
 
 *  Functions of latitude.
       ASTROM(25) = SIN(PHI)
@@ -3927,14 +3988,11 @@
       ASTROM(29) = REFA
       ASTROM(30) = REFB
 
-*  Local Earth rotation angle.
-      CALL iau_APER ( THETA, ASTROM )
-
 *  Finished.
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -4194,9 +4252,9 @@
 *
 *  This revision:   2013 September 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -4242,7 +4300,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -4420,9 +4478,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -4444,7 +4502,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -4608,9 +4666,9 @@
 *
 *  This revision:   2013 August 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -4644,7 +4702,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -4846,9 +4904,9 @@
 *
 *  This revision:   2013 September 30
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -4884,7 +4942,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -5047,9 +5105,9 @@
 *
 *  This revision:   2013 August 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -5082,7 +5140,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -5327,9 +5385,9 @@
 *
 *  This revision:   2016 February 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -5364,7 +5422,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -5536,9 +5594,9 @@
 *
 *  This revision:   2017 March 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -5560,7 +5618,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -5720,9 +5778,9 @@
 *
 *  This revision:   2013 August 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -5805,7 +5863,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -6004,9 +6062,9 @@
 *
 *  This revision:   2013 September 30
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -6091,7 +6149,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -6322,9 +6380,9 @@
 *
 *  This revision:   2016 February 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -6356,7 +6414,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -6510,7 +6568,7 @@
 *     coordinates should be within 0.05 arcsec (optical) or 1 arcsec
 *     (radio) for a zenith distance of less than 70 degrees, better
 *     than 30 arcsec (optical or radio) at 85 degrees and better than
-*     20 arcmin (optical) or 30 arcmin (radio) at the horizon.
+*     25 arcmin (optical) or 35 arcmin (radio) at the horizon.
 *
 *     Without refraction, the complementary routines iau_ATIOQ and
 *     iau_ATOIQ are self-consistent to better than 1 microarcsecond all
@@ -6549,11 +6607,11 @@
 *     iau_C2S      p-vector to spherical
 *     iau_ANP      normalize angle into range 0 to 2pi
 *
-*  This revision:   2017 July 10
+*  This revision:   2020 December 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -6564,7 +6622,7 @@
       DOUBLE PRECISION SELMIN, CELMIN
       PARAMETER ( SELMIN = 0.05D0, CELMIN = 1D-6 )
 
-      DOUBLE PRECISION V(3), X, Y, Z, XHD, YHD, ZHD, F,
+      DOUBLE PRECISION V(3), X, Y, Z, SX, CX, SY, CY, XHD, YHD, ZHD, F,
      :                 XHDT, YHDT, ZHDT, XAET, YAET, ZAET, AZOBS,
      :                 R, TZ, W, DEL, COSDEL, XAEO, YAEO, ZAEO,
      :                 ZDOBS, HMOBS, DCOBS, RAOBS
@@ -6579,9 +6637,13 @@
       Z = V(3)
 
 *  Polar motion.
-      XHD = X + ASTROM(23)*Z
-      YHD = Y - ASTROM(24)*Z
-      ZHD = Z - ASTROM(23)*X + ASTROM(24)*Y
+      SX = SIN(ASTROM(23))
+      CX = COS(ASTROM(23))
+      SY = SIN(ASTROM(24))
+      CY = COS(ASTROM(24))
+      XHD = CX*X + SX*Z
+      YHD = SX*SY*X + CY*Y - CX*SY*Z
+      ZHD = -SX*CY*X + SY*Y + CX*CY*Z
 
 *  Diurnal aberration.
       F = ( 1D0 - ASTROM(27)*YHD )
@@ -6647,7 +6709,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -6886,9 +6948,9 @@
 *
 *  This revision:   2013 August 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -6924,7 +6986,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -7162,9 +7224,9 @@
 *
 *  This revision:   2013 July 6
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -7197,7 +7259,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -7359,11 +7421,11 @@
 *  3) The accuracy of the result is limited by the corrections for
 *     refraction, which use a simple A*tan(z) + B*tan^3(z) model.
 *     Providing the meteorological parameters are known accurately and
-*     there are no gross local effects, the predicted observed
-*     coordinates should be within 0D05 arcsec (optical) or 1 arcsec
-*     (radio) for a zenith distance of less than 70 degrees, better
+*     there are no gross local effects, the predicted intermediate
+*     coordinates should be within 0.5 arcsec (optical) or 1 arcsec
+*     (radio) for a zenith distance of less than 75 degrees, better
 *     than 30 arcsec (optical or radio) at 85 degrees and better than
-*     20 arcmin (optical) or 30 arcmin (radio) at the horizon.
+*     20 arcmin (optical) or 25 arcmin (radio) at the horizon.
 *
 *     Without refraction, the complementary routines iau_ATIOQ and
 *     iau_ATOIQ are self-consistent to better than 1 microarcsecond all
@@ -7385,11 +7447,11 @@
 *     iau_C2S      p-vector to spherical
 *     iau_ANP      normalize angle into range 0 to 2pi
 *
-*  This revision:   2013 August 3
+*  This revision:   2020 December 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -7397,12 +7459,16 @@
       CHARACTER*(*) TYPE
       DOUBLE PRECISION OB1, OB2, ASTROM(30), RI, DI
 
+*  Minimum sine of altitude for refraction purposes
+      DOUBLE PRECISION SELMIN
+      PARAMETER ( SELMIN = 0.05D0 )
+
       CHARACTER C
       DOUBLE PRECISION C1, C2, SPHI, CPHI, CE, XAEO, YAEO, ZAEO, V(3),
      :                 XMHDO, YMHDO, ZMHDO, AZ, SZ, ZDO, REFA, REFB,
      :                 TZ, DREF, ZDT, XAET, YAET, ZAET,
      :                 XMHDA, YMHDA, ZMHDA, F, XHD, YHD, ZHD,
-     :                 XPL, YPL, W, HMA
+     :                 SX, CX, SY, CY, HMA
 
       DOUBLE PRECISION iau_ANP
 
@@ -7469,6 +7535,7 @@
 *  Fast algorithm using two constant model.
       REFA = ASTROM(29)
       REFB = ASTROM(30)
+      ZAEO = MAX ( ZAEO, SELMIN )
       TZ = SZ / ZAEO
       DREF = ( REFA + REFB*TZ*TZ ) * TZ
       ZDT = ZDO + DREF
@@ -7491,14 +7558,15 @@
       ZHD = F * ZMHDA
 
 *  Polar motion.
-      XPL = ASTROM(23)
-      YPL = ASTROM(24)
-      W = XPL*XHD - YPL*YHD + ZHD
-      V(1) = XHD - XPL*W
-      V(2) = YHD + YPL*W
-      V(3) = W - ( XPL*XPL + YPL*YPL ) * ZHD
+      SX = SIN(ASTROM(23))
+      CX = COS(ASTROM(23))
+      SY = SIN(ASTROM(24))
+      CY = COS(ASTROM(24))
+      V(1) = CX*XHD + SX*SY*YHD - SX*CY*ZHD
+      V(2) = CY*YHD + SY*ZHD
+      V(3) = SX*XHD - CX*SY*YHD + CX*CY*ZHD
 
-*  To spherical -HA,DeC.
+*  To spherical -HA,Dec.
       CALL iau_C2S ( V, HMA, DI )
 
 *  Right ascension.
@@ -7508,7 +7576,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -7609,8 +7677,9 @@
 *   i a u _ B I 0 0
 *  - - - - - - - - -
 *
-*  Frame bias components of IAU 2000 precession-nutation models (part of
-*  MHB2000 with additions).
+*  Frame bias components of IAU 2000 precession-nutation models; part
+*  of the Mathews-Herring-Buffett (MHB2000) nutation series, with
+*  additions.
 *
 *  This routine is part of the International Astronomical Union's
 *  SOFA (Standards of Fundamental Astronomy) software collection.
@@ -7644,16 +7713,16 @@
 *     387, 700, 2002.
 *
 *     Mathews, P.M., Herring, T.A., Buffet, B.A., "Modeling of nutation
-*     and precession   New nutation series for nonrigid Earth and
+*     and precession:  New nutation series for nonrigid Earth and
 *     insights into the Earth's interior", J.Geophys.Res., 107, B4,
-*     2002.  The MHB2000 code itself was obtained on 9th September 2002
+*     2002.  The MHB2000 code itself was obtained on 2002 September 9
 *     from ftp://maia.usno.navy.mil/conv2000/chapter5/IAU2000A.
 *
-*  This revision:  2009 December 15
+*  This revision:  2020 October 29
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -7685,7 +7754,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -7855,9 +7924,9 @@
 *
 *  This revision:  2013 August 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -7929,7 +7998,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -8090,9 +8159,9 @@
 *
 *  This revision:  2013 August 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -8130,7 +8199,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -8266,9 +8335,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -8286,7 +8355,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -8434,7 +8503,7 @@
 *     Reference System (see IERS Conventions 2003), ERA is the Earth
 *     Rotation Angle and RPOM is the polar motion matrix.
 *
-*  3) A faster, but slightly less accurate result (about 1 mas), can be
+*  3) A faster, but slightly less accurate, result (about 1 mas) can be
 *     obtained by using instead the iau_C2I00B routine.
 *
 *  Called:
@@ -8454,11 +8523,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2010 January 18
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -8480,7 +8549,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -8650,9 +8719,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -8674,7 +8743,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -8839,9 +8908,9 @@
 *
 *  This revision:  2007 May 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -8871,7 +8940,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -9045,9 +9114,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -9069,7 +9138,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -9235,9 +9304,9 @@
 *
 *  This revision:  2007 June 1
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -9256,7 +9325,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -9404,9 +9473,9 @@
 *
 *  This revision:  2014 November 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -9437,7 +9506,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -9562,9 +9631,9 @@
 *
 *  This revision:  2007 April 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -9597,7 +9666,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -9699,7 +9768,7 @@
 *  - - - - - - - - - - -
 *
 *  Form the celestial to terrestrial matrix given the date, the UT1 and
-*  the polar motion, using the IAU 2000A nutation model.
+*  the polar motion, using the IAU 2000A precession-nutation model.
 *
 *  This routine is part of the International Astronomical Union's
 *  SOFA (Standards of Fundamental Astronomy) software collection.
@@ -9741,7 +9810,7 @@
 *  2) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
 *     Reference System (see IERS Conventions 2003), measured along the
-*     meridians to 0 and 90 deg west respectively.
+*     meridians 0 and 90 deg west respectively.
 *
 *  3) The matrix RC2T transforms from celestial to terrestrial
 *     coordinates:
@@ -9756,7 +9825,7 @@
 *     celestial-to-intermediate matrix, ERA is the Earth rotation angle
 *     and RPOM is the polar motion matrix.
 *
-*  4) A faster, but slightly less accurate result (about 1 mas), can be
+*  4) A faster, but slightly less accurate, result (about 1 mas) can be
 *     obtained by using instead the iau_C2T00B routine.
 *
 *  Called:
@@ -9771,11 +9840,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2009 April 1
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -9808,7 +9877,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -9910,7 +9979,7 @@
 *  - - - - - - - - - - -
 *
 *  Form the celestial to terrestrial matrix given the date, the UT1 and
-*  the polar motion, using the IAU 2000B nutation model.
+*  the polar motion, using the IAU 2000B precession-nutation model.
 *
 *  This routine is part of the International Astronomical Union's
 *  SOFA (Standards of Fundamental Astronomy) software collection.
@@ -9952,7 +10021,7 @@
 *  2) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
 *     Reference System (see IERS Conventions 2003), measured along the
-*     meridians to 0 and 90 deg west respectively.
+*     meridians 0 and 90 deg west respectively.
 *
 *  3) The matrix RC2T transforms from celestial to terrestrial
 *     coordinates:
@@ -9981,11 +10050,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2009 April 1
+*  This revision:  2020 October 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -10015,7 +10084,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -10117,8 +10186,8 @@
 *  - - - - - - - - - - -
 *
 *  Form the celestial to terrestrial matrix given the date, the UT1 and
-*  the polar motion, using the IAU 2006 precession and IAU 2000A
-*  nutation models.
+*  the polar motion, using the IAU 2006/2000A precession-nutation
+*  model.
 *
 *  This routine is part of the International Astronomical Union's
 *  SOFA (Standards of Fundamental Astronomy) software collection.
@@ -10160,7 +10229,7 @@
 *  2) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
 *     Reference System (see IERS Conventions 2003), measured along the
-*     meridians to 0 and 90 deg west respectively.
+*     meridians 0 and 90 deg west respectively.
 *
 *  3) The matrix RC2T transforms from celestial to terrestrial
 *     coordinates:
@@ -10187,11 +10256,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), 2004, IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG
 *
-*  This revision:  2009 April 1
+*  This revision:  2020 October 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -10224,7 +10293,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -10363,9 +10432,9 @@
 *
 *  This revision:  2007 May 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -10382,7 +10451,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -10535,9 +10604,9 @@
 *
 *  This revision:  2013 August 24
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -10558,7 +10627,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -10711,9 +10780,9 @@
 *
 *  This revision:  2013 August 24
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -10734,7 +10803,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -10886,7 +10955,7 @@
 *  3) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
 *     Reference System (see IERS Conventions 2003), measured along the
-*     meridians to 0 and 90 deg west respectively.
+*     meridians 0 and 90 deg west respectively.
 *
 *  4) The matrix RC2T transforms from celestial to terrestrial
 *     coordinates:
@@ -10919,9 +10988,9 @@
 *
 *  This revision:  2009 April 1
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -10960,7 +11029,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -11108,7 +11177,7 @@
 *  3) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
 *     Reference System (see IERS Conventions 2003), measured along the
-*     meridians to 0 and 90 deg west respectively.
+*     meridians 0 and 90 deg west respectively.
 *
 *  4) The matrix RC2T transforms from celestial to terrestrial
 *     coordinates:
@@ -11137,11 +11206,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2009 April 1
+*  This revision:  2020 October 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -11175,7 +11244,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -11287,7 +11356,7 @@
 *     IY,IM,ID    i     year, month, day in Gregorian calendar (Note 1)
 *
 *  Returned:
-*     DJM0        d     MJD zero-point: always 2400000.5
+*     DJM0        d     MJD zero-point: always 2400000.5D0
 *     DJM         d     Modified Julian Date for 0 hrs
 *     J           i     status:
 *                           0 = OK
@@ -11316,11 +11385,11 @@
 *     P. Kenneth Seidelmann (ed), University Science Books (1992),
 *     Section 12.92 (p604).
 *
-*  This revision:  2014 November 7
+*  This revision:  2020 October 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -11384,7 +11453,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -11500,9 +11569,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -11522,7 +11591,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -11641,9 +11710,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -11660,7 +11729,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -11779,9 +11848,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -11801,7 +11870,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -11968,11 +12037,11 @@
 *     iau_D2TF     decompose days to hms
 *     iau_DAT      delta(AT) = TAI-UTC
 *
-*  This revision:  2014 February 15
+*  This revision:  2021 February 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -12023,7 +12092,7 @@
          DLEAP = DAT24 - ( 2D0 * DAT12 - DAT0 )
 
 *     If leap second day, scale the fraction of a day into SI.
-         LEAP = DLEAP.NE.0D0
+         LEAP = ABS(DLEAP) .GT. 0.5D0
          IF ( LEAP ) FD = FD + FD*DLEAP/D2S
 
       END IF
@@ -12098,7 +12167,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -12248,9 +12317,9 @@
 *
 *  This revision:  2005 August 26
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -12324,7 +12393,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -12541,9 +12610,9 @@
 *
 *  This revision:  2020 May 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -12958,9 +13027,9 @@
 *
 *  This revision:  2010 July 29
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -13980,7 +14049,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -14154,9 +14223,9 @@
 *
 *  This revision:  2013 July 26
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -14245,7 +14314,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -14401,9 +14470,9 @@
 *
 *  This revision:  2016 February 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -14438,7 +14507,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -14599,9 +14668,9 @@
 *
 *  This revision:  2015 December 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -14632,7 +14701,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -14794,9 +14863,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -14815,7 +14884,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -14975,9 +15044,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -15007,7 +15076,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -15148,9 +15217,9 @@
 *        Greenwich apparent ST = GMST + equation of the equinoxes
 *
 *  3) The result is compatible with the IAU 2000 resolutions except that
-*     accuracy has been compromised for the sake of speed.  For further
-*     details, see McCarthy & Luzum (2001), IERS Conventions 2003 and
-*     Capitaine et al. (2003).
+*     accuracy has been compromised (1 mas) for the sake of speed.  For
+*     further details, see McCarthy & Luzum (2003), IERS Conventions
+*     2003 and Capitaine et al. (2003).
 *
 *  Called:
 *     iau_PR00     IAU 2000 precession adjustments
@@ -15171,11 +15240,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2006 November 13
+*  This revision:  2020 November 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -15205,7 +15274,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -15357,9 +15426,9 @@
 *
 *  This revision:  2006 October 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -15379,7 +15448,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -15570,9 +15639,9 @@
 *
 *  This revision:  2017 October 23
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -15762,7 +15831,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -15915,9 +15984,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -15966,7 +16035,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -16078,7 +16147,7 @@
 *     DATE1,DATE2    d      TT as a 2-part Julian Date (Note 1)
 *
 *  Returned:
-*     iau_EO06A      d      equation of the origins in radians
+*     iau_EO06A      d      the equation of the origins in radians
 *
 *  Notes:
 *
@@ -16120,11 +16189,11 @@
 *
 *     Wallace, P.T. & Capitaine, N., 2006, Astron.Astrophys. 459, 981
 *
-*  This revision:  2007 February 13
+*  This revision:  2020 November 14
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -16153,7 +16222,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -16264,10 +16333,10 @@
 *
 *  Given:
 *     RNPB    d(3,3)    classical nutation x precession x bias matrix
-*     S         d       the quantity s (the CIO locator)
+*     S         d       the quantity s (the CIO locator) in radians
 *
 *  Returned:
-*     iau_EORS  d       the equation of the origins in radians.
+*     iau_EORS  d       the equation of the origins in radians
 *
 *  Notes:
 *
@@ -16286,11 +16355,11 @@
 *
 *     Wallace, P. & Capitaine, N., 2006, Astron.Astrophys. 459, 981
 *
-*  This revision:  2008 February 24
+*  This revision:  2020 November 14
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -16320,7 +16389,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -16447,9 +16516,9 @@
 *
 *  This revision:  2013 August 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -16477,7 +16546,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -16589,7 +16658,7 @@
 *     EPB         d     Besselian Epoch (e.g. 1957.3D0)
 *
 *  Returned:
-*     DJM0        d     MJD zero-point: always 2400000.5
+*     DJM0        d     MJD zero-point: always 2400000.5D0
 *     DJM         d     Modified Julian Date
 *
 *  Note:
@@ -16603,11 +16672,11 @@
 *
 *     Lieske, J.H., 1979, Astron.Astrophys. 73, 282.
 *
-*  This revision:  2008 May 11
+*  This revision:  2020 October 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -16628,7 +16697,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -16755,9 +16824,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -16781,7 +16850,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -16893,7 +16962,7 @@
 *     EPJ         d     Julian Epoch (e.g. 1996.8D0)
 *
 *  Returned:
-*     DJM0        d     MJD zero-point: always 2400000.5
+*     DJM0        d     MJD zero-point: always 2400000.5D0
 *     DJM         d     Modified Julian Date
 *
 *  Note:
@@ -16907,11 +16976,11 @@
 *
 *     Lieske, J.H., 1979, Astron.Astrophys. 73, 282.
 *
-*  This revision:  2008 May 11
+*  This revision:  2020 October 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -16928,7 +16997,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -17117,9 +17186,9 @@
 *
 *  This revision:  2017 March 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -19551,7 +19620,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -19708,9 +19777,9 @@
 *
 *  This revision:  2016 February 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -19745,7 +19814,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -19898,9 +19967,9 @@
 *
 *  This revision:  2017 October 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -19950,7 +20019,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -20106,9 +20175,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -20151,7 +20220,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -20284,9 +20353,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -20317,7 +20386,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -20453,9 +20522,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -20478,7 +20547,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -20612,9 +20681,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -20646,7 +20715,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -20782,9 +20851,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -20807,7 +20876,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -20940,9 +21009,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -20973,7 +21042,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -21106,9 +21175,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -21139,7 +21208,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -21275,9 +21344,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -21300,7 +21369,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -21436,9 +21505,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -21461,7 +21530,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -21594,9 +21663,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -21619,7 +21688,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -21745,16 +21814,16 @@
 *  References:
 *
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
-*     IERS Technical Note No. 32, BKG (2004)
+*     IERS Technical Note No. 32, BKG (2004).
 *
 *     Simon, J.-L., Bretagnon, P., Chapront, J., Chapront-Touze, M.,
-*     Francou, G., Laskar, J. 1994, Astron.Astrophys. 282, 663-683
+*     Francou, G., Laskar, J., 1994, Astron.Astrophys. 282, 663-683.
 *
-*  This revision:  2009 December 15
+*  This revision:  2020 November 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -21785,7 +21854,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -21922,9 +21991,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -21941,7 +22010,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -22077,9 +22146,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -22102,7 +22171,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -22235,9 +22304,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -22260,7 +22329,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -22396,9 +22465,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -22421,7 +22490,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -22629,9 +22698,9 @@
 *
 *  This revision:   2018 January 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -22753,7 +22822,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -22931,9 +23000,9 @@
 *
 *  This revision:   2018 January 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -23017,7 +23086,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -23219,9 +23288,9 @@
 *
 *  This revision:   2019 October 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -23362,7 +23431,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -23515,9 +23584,9 @@
 *
 *  This revision:  2017 October 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -23562,7 +23631,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -23714,9 +23783,9 @@
 *
 *  This revision:   2018 January 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -23762,7 +23831,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -23900,9 +23969,9 @@
 *
 *  This revision:  2017 October 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -23947,7 +24016,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -24117,9 +24186,9 @@
 *
 *  This revision:  2012 September 5
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -24171,7 +24240,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -24337,13 +24406,14 @@
 *  References:
 *
 *     Capitaine, N. & Wallace, P.T., 2006, Astron.Astrophys. 450, 855
+*
 *     Hilton, J. et al., 2006, Celest.Mech.Dyn.Astron. 94, 351
 *
-*  This revision:   2019 July 26
+*  This revision:   2020 November 17
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -24364,7 +24434,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -24515,9 +24585,9 @@
 *
 *  This revision:   2013 September 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -24539,7 +24609,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -24701,9 +24771,9 @@
 *
 *  This revision:   2015 January 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -24759,7 +24829,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -24908,9 +24978,9 @@
 *
 *  This revision:  2013 September 1
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -24945,7 +25015,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -25099,9 +25169,9 @@
 *
 *  This revision:  2014 November 7
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -25213,7 +25283,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -25364,9 +25434,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -25397,7 +25467,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -25552,9 +25622,9 @@
 *
 *  This revision:  2009 November 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -25596,7 +25666,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -25706,8 +25776,8 @@
 *  Status:  canonical model.
 *
 *  Given:
-*     UTA, UTB     d      UT1 as a 2-part Julian Date (Notes 1,2)
-*     TTA, TTB     d      TT as a 2-part Julian Date (Notes 1,2)
+*     UTA,UTB      d      UT1 as a 2-part Julian Date (Notes 1,2)
+*     TTA,TTB      d      TT as a 2-part Julian Date (Notes 1,2)
 *
 *  Returned:
 *     iau_GMST00   d      Greenwich mean sidereal time (radians)
@@ -25716,8 +25786,8 @@
 *
 *  1) The UT1 and TT dates UTA+UTB and TTA+TTB respectively, are both
 *     Julian Dates, apportioned in any convenient way between the
-*     argument pairs.  For example, JD=2450123.7 could be expressed in
-*     any of these ways, among others:
+*     argument pairs.  For example, JD(UT1)=2450123.7 could be expressed
+*     in any of these ways, among others:
 *
 *            Part A         Part B
 *
@@ -25763,11 +25833,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2009 December 15
+*  This revision:  2020 November 17
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -25809,7 +25879,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -25918,8 +25988,8 @@
 *  Status:  canonical model.
 *
 *  Given:
-*     UTA, UTB     d      UT1 as a 2-part Julian Date (Notes 1,2)
-*     TTA, TTB     d      TT as a 2-part Julian Date (Notes 1,2)
+*     UTA,UTB      d      UT1 as a 2-part Julian Date (Notes 1,2)
+*     TTA,TTB      d      TT as a 2-part Julian Date (Notes 1,2)
 *
 *  Returned:
 *     iau_GMST06   d      Greenwich mean sidereal time (radians)
@@ -25967,11 +26037,11 @@
 *     Capitaine, N., Wallace, P.T. & Chapront, J., 2005,
 *     Astron.Astrophys. 432, 355
 *
-*  This revision:  2010 March 9
+*  This revision:  2020 November 17
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -26014,7 +26084,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -26177,9 +26247,9 @@
 *
 *  This revision:  2020 January 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -26235,7 +26305,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -26345,8 +26415,8 @@
 *  Status:  canonical model.
 *
 *  Given:
-*     UTA, UTB     d      UT1 as a 2-part Julian Date (Notes 1,2)
-*     TTA, TTB     d      TT as a 2-part Julian Date (Notes 1,2)
+*     UTA,UTB      d      UT1 as a 2-part Julian Date (Notes 1,2)
+*     TTA,TTB      d      TT as a 2-part Julian Date (Notes 1,2)
 *
 *  Returned:
 *     iau_GST00A   d      Greenwich apparent sidereal time (radians)
@@ -26355,10 +26425,10 @@
 *
 *  1) The UT1 and TT dates UTA+UTB and TTA+TTB respectively, are both
 *     Julian Dates, apportioned in any convenient way between the
-*     argument pairs.  For example, JD=2450123.7 could be expressed in
-*     any of these ways, among others:
+*     argument pairs.  For example, JD(UT1)=2450123.7 could be expressed
+*     in any of these ways, among others:
 *
-*            Part A         Part B
+*             UTA            UTB
 *
 *         2450123.7D0        0D0        (JD method)
 *          2451545D0      -1421.3D0     (J2000 method)
@@ -26404,11 +26474,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2007 December 8
+*  This revision:  2020 November 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -26427,7 +26497,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -26537,7 +26607,7 @@
 *  Status:  support routine.
 *
 *  Given:
-*     UTA, UTB     d      UT1 as a 2-part Julian Date (Notes 1,2)
+*     UTA,UTB      d      UT1 as a 2-part Julian Date (Notes 1,2)
 *
 *  Returned:
 *     iau_GST00B   d      Greenwich apparent sidereal time (radians)
@@ -26546,7 +26616,7 @@
 *
 *  1) The UT1 date UTA+UTB is a Julian Date, apportioned in any
 *     convenient way between the argument pair.  For example,
-*     JD=2450123.7 could be expressed in any of these ways, among
+*     JD(UT1)=2450123.7 could be expressed in any of these ways, among
 *     others:
 *
 *             UTA            UTB
@@ -26574,7 +26644,7 @@
 *       component of GMST and the equation of the equinoxes.  This
 *       results in errors of order 0.1 mas at present.
 *
-*     . The IAU 2000B abridged nutation model (McCarthy & Luzum, 2001)
+*     . The IAU 2000B abridged nutation model (McCarthy & Luzum, 2003)
 *       is used, introducing errors of up to 1 mas.
 *
 *  3) This GAST is compatible with the IAU 2000 resolutions and must be
@@ -26604,11 +26674,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2007 December 8
+*  This revision:  2020 November 19
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -26627,7 +26697,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -26747,10 +26817,10 @@
 *
 *  1) The UT1 and TT dates UTA+UTB and TTA+TTB respectively, are both
 *     Julian Dates, apportioned in any convenient way between the
-*     argument pairs.  For example, JD=2450123.7 could be expressed in
-*     any of these ways, among others:
+*     argument pairs.  For example, JD(UT1)=2450123.7 could be expressed
+*     in any of these ways, among others:
 *
-*            Part A         Part B
+*             UTA            UTB
 *
 *         2450123.7D0        0D0        (JD method)
 *          2451545D0      -1421.3D0     (J2000 method)
@@ -26790,11 +26860,11 @@
 *
 *     Wallace, P.T. & Capitaine, N., 2006, Astron.Astrophys. 459, 981
 *
-*  This revision:  2008 January 2
+*  This revision:  2020 November 19
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -26822,7 +26892,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -26932,8 +27002,8 @@
 *  Status:  canonical model.
 *
 *  Given:
-*     UTA, UTB     d      UT1 as a 2-part Julian Date (Notes 1,2)
-*     TTA, TTB     d      TT as a 2-part Julian Date (Notes 1,2)
+*     UTA,UTB      d      UT1 as a 2-part Julian Date (Notes 1,2)
+*     TTA,TTB      d      TT as a 2-part Julian Date (Notes 1,2)
 *
 *  Returned:
 *     iau_GST06A   d      Greenwich apparent sidereal time (radians)
@@ -26942,10 +27012,10 @@
 *
 *  1) The UT1 and TT dates UTA+UTB and TTA+TTB respectively, are both
 *     Julian Dates, apportioned in any convenient way between the
-*     argument pairs.  For example, JD=2450123.7 could be expressed in
-*     any of these ways, among others:
+*     argument pairs.  For example, JD(UT1)=2450123.7 could be expressed
+*     in any of these ways, among others:
 *
-*            Part A         Part B
+*             UTA            UTB
 *
 *         2450123.7D0        0D0        (JD method)
 *          2451545D0      -1421.3D0     (J2000 method)
@@ -26982,11 +27052,11 @@
 *
 *     Wallace, P.T. & Capitaine, N., 2006, Astron.Astrophys. 459, 981
 *
-*  This revision:  2010 March 5
+*  This revision:  2020 November 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -27010,7 +27080,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -27129,7 +27199,7 @@
 *
 *  1) The UT1 date UTA+UTB is a Julian Date, apportioned in any
 *     convenient way between the argument pair.  For example,
-*     JD=2450123.7 could be expressed in any of these ways, among
+*     JD(UT1)=2450123.7 could be expressed in any of these ways, among
 *     others:
 *
 *             UTA            UTB
@@ -27172,11 +27242,11 @@
 *
 *     IAU Resolution C7, Recommendation 3 (1994)
 *
-*  This revision:  2007 December 8
+*  This revision:  2020 November 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -27195,7 +27265,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -27350,9 +27420,9 @@
 *
 *  This revision:  2017 October 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -27400,7 +27470,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -27556,9 +27626,9 @@
 *
 *  Last revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -27600,7 +27670,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -27740,9 +27810,9 @@
 *
 *  This revision:   2017 September 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -27764,7 +27834,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -27939,9 +28009,9 @@
 *
 *  This revision:  2012 September 5
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -28003,7 +28073,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -28165,9 +28235,9 @@
 *
 *  This revision:   2015 January 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -28223,7 +28293,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -28336,9 +28406,9 @@
 *
 *  This revision:  2012 April 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -28362,7 +28432,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -28500,7 +28570,7 @@
 *
 *     Separating integer and fraction uses the "compensated summation"
 *     algorithm of Kahan-Neumaier to preserve as much precision as
-*     possible irrespective of the jd1+jd2 apportionment.
+*     possible irrespective of the JD1+JD2 apportionment.
 *
 *  3) In early eras the conversion is from the "Proleptic Gregorian
 *     Calendar";  no account is taken of the date(s) of adoption of
@@ -28514,13 +28584,13 @@
 *     Section 12.92 (p604).
 *
 *     Klein, A., A Generalized Kahan-Babuska-Summation-Algorithm.
-*     Computing 76, 279-293 (2006), Section 3.
+*     Computing, 76, 279-293 (2006), Section 3.
 *
-*  This revision:  2020 June 24
+*  This revision:  2020 October 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -28626,7 +28696,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -28766,10 +28836,10 @@
 *     the Gregorian Calendar, nor is the AD/BC numbering convention
 *     observed.
 *
-*  3) Refer to the routine iau_JD2CAL.
+*  3) See also the routine iau_JD2CAL.
 *
-*  4) NDP should be 4 or less if internal overflows are to be
-*     avoided on machines which use 16-bit integers.
+*  4) The number of decimal places NDP should be 4 or less if internal
+*     overflows are to be avoided on platforms which use 16-bit integers.
 *
 *  Called:
 *     iau_JD2CAL   JD to Gregorian calendar
@@ -28780,11 +28850,11 @@
 *     P. Kenneth Seidelmann (ed), University Science Books (1992),
 *     Section 12.92 (p604).
 *
-*  This revision:  2020 April 13
+*  This revision:  2020 October 22
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -28853,7 +28923,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -29019,9 +29089,9 @@
 *
 *  This revision:   2013 September 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -29060,7 +29130,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -29238,9 +29308,9 @@
 *
 *  This revision:   2017 March 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -29307,7 +29377,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -29440,9 +29510,9 @@
 *
 *  This revision:   2016 June 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -29463,7 +29533,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -29615,9 +29685,9 @@
 *
 *  This revision:  2016 February 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -29652,7 +29722,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -29810,9 +29880,9 @@
 *
 *  This revision:  2015 December 6
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -29863,7 +29933,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -30016,9 +30086,9 @@
 *
 *  This revision:  2016 February 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -30053,7 +30123,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -30202,9 +30272,9 @@
 *
 *  This revision:  2015 December 6
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -30241,7 +30311,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -30391,9 +30461,9 @@
 *
 *  This revision:  2015 December 6
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -30430,7 +30500,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -30568,9 +30638,9 @@
 *
 *  This revision:  2016 February 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -30681,7 +30751,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -30819,9 +30889,9 @@
 *
 *  This revision:  2016 February 9
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -30937,7 +31007,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -31077,7 +31147,7 @@
 *     equatorial triad of date and the p-vector V(mean) is with
 *     respect to the mean equatorial triad of date.
 *
-*  3) A faster, but slightly less accurate result (about 1 mas), can be
+*  3) A faster, but slightly less accurate, result (about 1 mas) can be
 *     obtained by using instead the iau_NUM00B routine.
 *
 *  Called:
@@ -31089,11 +31159,11 @@
 *     P. Kenneth Seidelmann (ed), University Science Books (1992),
 *     Section 3.222-3 (p114).
 *
-*  This revision:  2006 November 13
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -31114,7 +31184,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -31268,9 +31338,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -31291,7 +31361,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -31445,9 +31515,9 @@
 *
 *  This revision:  2007 May 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -31474,7 +31544,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -31617,9 +31687,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -31639,7 +31709,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -31888,9 +31958,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -35144,7 +35214,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -35361,9 +35431,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -35693,7 +35763,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -35849,9 +35919,9 @@
 *
 *  This revision:  2011 April 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -35889,7 +35959,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -36039,9 +36109,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -36280,7 +36350,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -36427,9 +36497,9 @@
 *
 *  This revision:  2012 September 5
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -36453,7 +36523,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -36597,9 +36667,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -36639,7 +36709,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -36785,9 +36855,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -36824,7 +36894,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -37047,9 +37117,9 @@
 *
 *  This revision:  2020 June 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -37218,7 +37288,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -37338,9 +37408,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -37357,7 +37427,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -37485,9 +37555,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -37504,7 +37574,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -37643,9 +37713,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -37700,7 +37770,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -37828,9 +37898,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -37855,7 +37925,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -38018,9 +38088,9 @@
 *
 *  This revision:  2020 May 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -38072,7 +38142,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -38189,9 +38259,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -38214,7 +38284,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -38388,9 +38458,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -38447,7 +38517,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -38705,9 +38775,9 @@
 *
 *  This revision:  2017 October 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -39025,7 +39095,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -39141,9 +39211,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -39167,7 +39237,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -39303,7 +39373,7 @@
 *     optimum resolution.  The MJD method and the date & time methods
 *     are both good compromises between resolution and convenience.
 *
-*  2) The matrix operates in the sense V(date) = RBP * V(GCRS), where
+*  2) The matrix operates in the sense V(date) = rbp * V(GCRS), where
 *     the p-vector V(GCRS) is with respect to the Geocentric Celestial
 *     Reference System (IAU, 2000) and the p-vector V(date) is with
 *     respect to the mean equatorial triad of the given date.
@@ -39317,11 +39387,11 @@
 *     24th General Assembly, Manchester, UK.  Resolutions B1.3, B1.6.
 *     (2000)
 *
-*  This revision:  2009 December 21
+*  This revision:  2020 November 24
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -39340,7 +39410,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -39476,7 +39546,7 @@
 *     optimum resolution.  The MJD method and the date & time methods
 *     are both good compromises between resolution and convenience.
 *
-*  2) The matrix operates in the sense V(date) = RBP * V(GCRS), where
+*  2) The matrix operates in the sense V(date) = rbp * V(GCRS), where
 *     the p-vector V(GCRS) is with respect to the Geocentric Celestial
 *     Reference System (IAU, 2000) and the p-vector V(date) is with
 *     respect to the mean equatorial triad of the given date.
@@ -39489,13 +39559,17 @@
 *
 *     Capitaine, N. & Wallace, P.T., 2006, Astron.Astrophys. 450, 855
 *
+*     IAU: Trans. International Astronomical Union, Vol. XXIVB;  Proc.
+*     24th General Assembly, Manchester, UK.  Resolutions B1.3, B1.6.
+*     (2000)
+*
 *     Wallace, P.T. & Capitaine, N., 2006, Astron.Astrophys. 459, 981
 *
-*  This revision:  2009 December 21
+*  This revision:  2020 November 24
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -39517,7 +39591,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -39685,9 +39759,9 @@
 *
 *  This revision:  2009 December 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -39717,7 +39791,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -39834,9 +39908,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -39856,7 +39930,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -40002,9 +40076,9 @@
 *
 *  This revision:   2017 March 11
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -40085,7 +40159,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -40288,9 +40362,9 @@
 *
 *  This revision:   2013 June 6
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -40341,7 +40415,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -40467,9 +40541,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -40500,7 +40574,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -40691,9 +40765,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -40728,7 +40802,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -40919,9 +40993,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -40943,7 +41017,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -41134,9 +41208,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -41158,7 +41232,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -41344,9 +41418,9 @@
 *
 *  This revision:  2013 November 14
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -41398,7 +41472,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -41579,9 +41653,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -41603,7 +41677,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -41705,7 +41779,7 @@
 *  - - - - - - - - - - -
 *
 *  Form the matrix of precession-nutation for a given date (including
-*  frame bias), equinox-based, IAU 2000A model.
+*  frame bias), equinox based, IAU 2000A model.
 *
 *  This routine is part of the International Astronomical Union's
 *  SOFA (Standards of Fundamental Astronomy) software collection.
@@ -41716,14 +41790,14 @@
 *     DATE1,DATE2    d       TT as a 2-part Julian Date (Note 1)
 *
 *  Returned:
-*     RBPN         d(3,3)    classical NPB matrix (Note 2)
+*     RBPN         d(3,3)    bias-precession-nutation matrix (Note 2)
 *
 *  Notes:
 *
 *  1) The TT date DATE1+DATE2 is a Julian Date, apportioned in any
 *     convenient way between the two arguments.  For example,
-*     JD(TT)=2450123.7 could be expressed in any of these ways,
-*     among others:
+*     JD(TT)=2450123.7 could be expressed in any of these ways, among
+*     others:
 *
 *            DATE1          DATE2
 *
@@ -41744,7 +41818,7 @@
 *     of date DATE1+DATE2 and the p-vector V(GCRS) is with respect to
 *     the Geocentric Celestial Reference System (IAU, 2000).
 *
-*  3) A faster, but slightly less accurate result (about 1 mas), can be
+*  3) A faster, but slightly less accurate, result (about 1 mas) can be
 *     obtained by using instead the iau_PNM00B routine.
 *
 *  Called:
@@ -41756,11 +41830,11 @@
 *     24th General Assembly, Manchester, UK.  Resolutions B1.3, B1.6.
 *     (2000)
 *
-*  This revision:  2009 December 21
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -41781,7 +41855,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -41900,8 +41974,8 @@
 *
 *  1) The TT date DATE1+DATE2 is a Julian Date, apportioned in any
 *     convenient way between the two arguments.  For example,
-*     JD(TT)=2450123.7 could be expressed in any of these ways,
-*     among others:
+*     JD(TT)=2450123.7 could be expressed in any of these ways, among
+*     others:
 *
 *            DATE1          DATE2
 *
@@ -41934,11 +42008,11 @@
 *     24th General Assembly, Manchester, UK.  Resolutions B1.3, B1.6.
 *     (2000)
 *
-*  This revision:  2009 December 21
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -41959,7 +42033,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -42054,14 +42128,15 @@
 *-----------------------------------------------------------------------
 
       END
-      SUBROUTINE iau_PNM06A ( DATE1, DATE2, RNPB )
+      SUBROUTINE iau_PNM06A ( DATE1, DATE2, RBPN )
 *+
 *  - - - - - - - - - - -
 *   i a u _ P N M 0 6 A
 *  - - - - - - - - - - -
 *
 *  Form the matrix of precession-nutation for a given date (including
-*  frame bias), IAU 2006 precession and IAU 2000A nutation models.
+*  frame bias), equinox based, IAU 2006 precession and IAU 2000A
+*  nutation models.
 *
 *  This routine is part of the International Astronomical Union's
 *  SOFA (Standards of Fundamental Astronomy) software collection.
@@ -42072,14 +42147,14 @@
 *     DATE1,DATE2    d       TT as a 2-part Julian Date (Note 1)
 *
 *  Returned:
-*     RNPB         d(3,3)    bias-precession-nutation matrix (Note 2)
+*     RBPN         d(3,3)    bias-precession-nutation matrix (Note 2)
 *
 *  Notes:
 *
 *  1) The TT date DATE1+DATE2 is a Julian Date, apportioned in any
 *     convenient way between the two arguments.  For example,
-*     JD(TT)=2450123.7 could be expressed in any of these ways,
-*     among others:
+*     JD(TT)=2450123.7 could be expressed in any of these ways, among
+*     others:
 *
 *            DATE1          DATE2
 *
@@ -42095,7 +42170,7 @@
 *     optimum resolution.  The MJD method and the date & time methods
 *     are both good compromises between resolution and convenience.
 *
-*  2) The matrix operates in the sense V(date) = RNPB * V(GCRS), where
+*  2) The matrix operates in the sense V(date) = RBPN * V(GCRS), where
 *     the p-vector V(date) is with respect to the true equatorial triad
 *     of date DATE1+DATE2 and the p-vector V(GCRS) is with respect to
 *     the Geocentric Celestial Reference System (IAU, 2000).
@@ -42109,17 +42184,17 @@
 *
 *     Capitaine, N. & Wallace, P.T., 2006, Astron.Astrophys. 450, 855.
 *
-*  This revision:  2009 December 21
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
       IMPLICIT NONE
 
-      DOUBLE PRECISION DATE1, DATE2, RNPB(3,3)
+      DOUBLE PRECISION DATE1, DATE2, RBPN(3,3)
 
       DOUBLE PRECISION GAMB, PHIB, PSIB, EPSA, DP, DE
 
@@ -42132,13 +42207,13 @@
       CALL iau_NUT06A ( DATE1, DATE2, DP, DE )
 
 *  Equinox based nutation x precession x bias matrix.
-      CALL iau_FW2M ( GAMB, PHIB, PSIB+DP, EPSA+DE, RNPB )
+      CALL iau_FW2M ( GAMB, PHIB, PSIB+DP, EPSA+DE, RBPN )
 
 *  Finished.
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -42248,16 +42323,16 @@
 *  Status:  support routine.
 *
 *  Given:
-*     DATE1,DATE2     d         TDB date (Note 1)
+*     DATE1,DATE2    d       TT as a 2-part Julian Date (Note 1)
 *
 *  Returned:
 *     RMATPN          d(3,3)    combined precession/nutation matrix
 *
 *  Notes:
 *
-*  1) The TDB date DATE1+DATE2 is a Julian Date, apportioned in any
+*  1) The TT date DATE1+DATE2 is a Julian Date, apportioned in any
 *     convenient way between the two arguments.  For example,
-*     JD(TDB)=2450123.7 could be expressed in any of these ways, among
+*     JD(TT)=2450123.7 could be expressed in any of these ways, among
 *     others:
 *
 *            DATE1          DATE2
@@ -42291,11 +42366,11 @@
 *     P. Kenneth Seidelmann (ed), University Science Books (1992),
 *     Section 3.3 (p145).
 *
-*  This revision:  2012 September 5
+*  This revision:  2020 November 27
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -42320,7 +42395,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -42440,7 +42515,7 @@
 *  1) XP and YP are the coordinates (in radians) of the Celestial
 *     Intermediate Pole with respect to the International Terrestrial
 *     Reference System (see IERS Conventions 2003), measured along the
-*     meridians to 0 and 90 deg west respectively.
+*     meridians 0 and 90 deg west respectively.
 *
 *  2) SP is the TIO locator s', in radians, which positions the
 *     Terrestrial Intermediate Origin on the equator.  It is obtained
@@ -42465,11 +42540,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2009 December 15
+*  This revision:  2020 October 31
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -42489,7 +42564,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -42606,9 +42681,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -42628,7 +42703,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -42746,9 +42821,9 @@
 *
 *  This revision:  2007 August 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -42768,7 +42843,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -42936,9 +43011,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -42981,7 +43056,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -43147,9 +43222,9 @@
 *
 *  This revision:  2013 November 19
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -43204,7 +43279,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -43323,9 +43398,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -43341,7 +43416,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -43475,9 +43550,9 @@
 *
 *  This revision:  2008 May 10
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -43547,7 +43622,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -43674,9 +43749,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -43704,7 +43779,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -43824,9 +43899,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -43846,7 +43921,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -43966,9 +44041,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -43988,7 +44063,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -44108,9 +44183,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -44130,7 +44205,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -44322,9 +44397,9 @@
 *
 *  This revision:  2017 March 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -44429,7 +44504,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -44590,9 +44665,9 @@
 *
 *  This revision:   2013 June 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -44643,7 +44718,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -44761,7 +44836,7 @@
 *  Notes:
 *
 *  1) "Update" means "refer the position component of the vector
-*     to a new epoch DT time units from the existing epoch".
+*     to a new date DT time units from the existing date".
 *
 *  2) The time units of DT must match those of the velocity.
 *
@@ -44769,11 +44844,11 @@
 *     iau_PPSP     p-vector plus scaled p-vector
 *     iau_CP       copy p-vector
 *
-*  This revision:  2003 January 14
+*  This revision:  2020 August 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -44790,7 +44865,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -44914,9 +44989,9 @@
 *
 *  This revision:  2008 May 8
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -44936,7 +45011,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -45065,9 +45140,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -45095,7 +45170,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -45212,9 +45287,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -45240,7 +45315,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -45451,6 +45526,7 @@
 *        total pressure, water-vapour pressure and, in the case
 *        of optical/IR, wavelength.  The formulae for the two cases are
 *        developed from Hohenkerk & Sinclair (1985) and Rueger (2002).
+*        The IAG (1999) optical refractivity for dry air is used.
 *
 *     d) The formula for beta, the ratio of the scale height of the
 *        atmosphere to the geocentric distance of the observer, is
@@ -45477,6 +45553,9 @@
 *     Hohenkerk, C.Y., & Sinclair, A.T., NAO Technical Note No. 63,
 *     1985.
 *
+*     IAG Resolutions adopted at the XXIIth General Assembly in
+*     Birmingham, 1999, Resolution 3.
+*
 *     Rueger, J.M., "Refractive Index Formulae for Electronic Distance
 *     Measurement with Radio and Millimetre Waves", in Unisurv Report
 *     S-68, School of Surveying and Spatial Information Systems,
@@ -45484,11 +45563,11 @@
 *
 *     Stone, Ronald C., P.A.S.P. 108, 1051-1058, 1996.
 *
-*  This revision:  2016 December 20
+*  This revision:  2020 August 17
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -45540,7 +45619,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -45671,9 +45750,9 @@
 *
 *  This revision:  2015 January 30
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -45706,7 +45785,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -45827,16 +45906,16 @@
 *     supplied to this routine has the same direction as the Euler axis,
 *     and its magnitude is the angle in radians.
 *
-*  2) If W is null, the unit matrix is returned.
+*  2) If W is null, the indentity matrix is returned.
 *
 *  3) The reference frame rotates clockwise as seen looking along the
 *     rotation vector from the origin.
 *
-*  This revision:  2015 January 30
+*  This revision:  2020 August 21
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -45879,7 +45958,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46009,9 +46088,9 @@
 *
 *  This revision:  2012 April 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -46044,7 +46123,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46164,9 +46243,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -46196,7 +46275,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46313,12 +46392,18 @@
 *
 *  Called:
 *     iau_RXP      product of r-matrix and p-vector
+**
+**  Note:
+*     The algorithm is for the simple case where the r-matrix R is not a
+*     function of time.  The case where R is a function of time leads to
+*     an additional velocity component equal to the product of the
+*     derivative of R and the position vector.
 *
-*  This revision:  2006 November 13
+*  This revision:  2020 September 26
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -46335,7 +46420,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46455,9 +46540,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -46485,7 +46570,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46615,9 +46700,9 @@
 *
 *  This revision:  2012 April 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -46650,7 +46735,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46780,9 +46865,9 @@
 *
 *  This revision:  2012 April 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -46815,7 +46900,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -46992,9 +47077,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -47324,7 +47409,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -47495,9 +47580,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -47524,7 +47609,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -47695,9 +47780,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -47724,7 +47809,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -47898,9 +47983,9 @@
 *
 *  This revision:   2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -48230,7 +48315,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -48403,9 +48488,9 @@
 *
 *  This revision:  2010 January 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -48432,7 +48517,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -48549,9 +48634,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -48572,7 +48657,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -48694,9 +48779,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -48715,7 +48800,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -48836,9 +48921,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -48871,7 +48956,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -48992,9 +49077,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -49011,7 +49096,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -49143,9 +49228,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -49175,7 +49260,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -49298,9 +49383,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -49323,7 +49408,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -49472,9 +49557,9 @@
 *
 *  This revision:  2009 December 15
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -49509,7 +49594,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -49713,9 +49798,9 @@
 *
 *  This revision:  2017 March 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -49792,7 +49877,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -50001,9 +50086,9 @@
 *
 *  This revision:  2017 March 16
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -50144,7 +50229,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -50261,9 +50346,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -50283,7 +50368,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -50403,9 +50488,9 @@
 *
 *  This revision:  2006 November 13
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -50421,7 +50506,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -50554,9 +50639,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -50586,7 +50671,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -50720,9 +50805,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -50755,7 +50840,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -50911,9 +50996,9 @@
 *
 *  This revision:  2020 June 22
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -50971,7 +51056,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -51118,9 +51203,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -51160,7 +51245,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -51285,16 +51370,16 @@
 *
 *  References:
 *
-*     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),.
+*     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
 *     IAU 2000 Resolution B1.9
 *
-*  This revision:  2019 June 20
+*  This revision:  2020 October 23
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -51332,7 +51417,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -51480,9 +51565,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -51528,7 +51613,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -51672,9 +51757,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -51707,7 +51792,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -51830,7 +51915,7 @@
 *
 *  Notes:
 *
-*  1)  If the s argument is a string, only the leftmost character is
+*  1)  If the S argument is a string, only the leftmost character is
 *      used and no warning status is provided.
 *
 *  2)  The result is computed even if any of the range checks fail.
@@ -51841,11 +51926,11 @@
 *  4)  If there are multiple errors, the status value reflects only the
 *      first, the smallest taking precedence.
 *
-*  This revision:  2013 December 2
+*  This revision:  2020 August 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -51887,7 +51972,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -52023,9 +52108,9 @@
 *
 *  This revision:  2013 December 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -52067,7 +52152,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -52248,9 +52333,9 @@
 *
 *  This revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -52297,7 +52382,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -52473,9 +52558,9 @@
 *
 *  This revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -52522,7 +52607,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -52672,9 +52757,9 @@
 *
 *  This revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -52698,7 +52783,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -52858,9 +52943,9 @@
 *
 *  This revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -52896,7 +52981,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -53049,9 +53134,9 @@
 *
 *  This revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -53100,7 +53185,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -53264,9 +53349,9 @@
 *
 *  This revision:   2018 January 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -53324,7 +53409,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -53443,9 +53528,9 @@
 *
 *  This revision:  2000 November 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -53469,7 +53554,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -53590,9 +53675,9 @@
 *
 *  This revision:  2020 May 24
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -53614,7 +53699,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -53727,17 +53812,23 @@
 *     PV       d(3,2)    pv-vector
 *
 *  Returned:
-*     TRPV     d(3,2)    R * PV
+*     TRPV     d(3,2)    R^T * PV
 *
 *  Called:
 *     iau_TR       transpose r-matrix
 *     iau_RXPV     product of r-matrix and pv-vector
 *
-*  This revision:  2009 July 11
+*  Note:
+*     The algorithm is for the simple case where the r-matrix R is not a
+*     function of time.  The case where r is a function of time leads to
+*     an additional velocity component equal to the product of the
+*     derivative of the transpose of R and the position vector.
 *
-*  SOFA release 2020-07-21
+*  This revision:  2020 September 26
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  SOFA release 2021-01-25
+*
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -53759,7 +53850,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -53892,9 +53983,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -53924,7 +54015,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -54056,9 +54147,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -54100,7 +54191,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -54244,9 +54335,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -54279,7 +54370,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -54412,9 +54503,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -54447,7 +54538,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -54581,9 +54672,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -54616,7 +54707,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -54749,9 +54840,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -54784,7 +54875,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -54919,7 +55010,7 @@
 *
 *  3) JD cannot unambiguously represent UTC during a leap second unless
 *     special measures are taken.  The convention in the present routine
-*     is that the returned quasi JD day UTC1+UTC2 represents UTC days
+*     is that the returned quasi-JD UTC1+UTC2 represents UTC days
 *     whether the length is 86399, 86400 or 86401 SI seconds.
 *
 *  4) The routine iau_D2DTF can be used to transform the UTC quasi-JD
@@ -54943,11 +55034,11 @@
 *     Explanatory Supplement to the Astronomical Almanac,
 *     P. Kenneth Seidelmann (ed), University Science Books (1992)
 *
-*  This revision:  2019 June 20
+*  This revision:  2020 October 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -55039,7 +55130,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -55197,9 +55288,9 @@
 *
 *  This revision:  2019 June 20
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -55277,7 +55368,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -55439,9 +55530,9 @@
 *
 *  This revision:  2013 August 12
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -55479,7 +55570,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -55665,9 +55756,9 @@
 *
 *  This revision:  2013 December 2
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -58130,7 +58221,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -58289,9 +58380,9 @@
 *
 *  This revision:  2019 November 18
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -58318,7 +58409,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -58433,7 +58524,7 @@
 *
 *  Returned:
 *     X,Y           d    Celestial Intermediate Pole (Note 2)
-*     S             d    the CIO locator s (Note 2)
+*     S             d    the CIO locator s (Note 3)
 *
 *  Notes:
 *
@@ -58475,11 +58566,11 @@
 *     McCarthy, D. D., Petit, G. (eds.), IERS Conventions (2003),
 *     IERS Technical Note No. 32, BKG (2004)
 *
-*  This revision:  2006 November 13
+*  This revision:  2020 December 4
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -58506,7 +58597,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -58621,7 +58712,7 @@
 *
 *  Returned:
 *     X,Y           d    Celestial Intermediate Pole (Note 2)
-*     S             d    the CIO locator s (Note 2)
+*     S             d    the CIO locator s (Note 3)
 *
 *  Notes:
 *
@@ -58664,11 +58755,11 @@
 *
 *     Wallace, P.T. & Capitaine, N., 2006, Astron.Astrophys. 459, 981
 *
-*  This revision:  2013 May 14
+*  This revision:  2020 December 4
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -58695,7 +58786,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -58804,13 +58895,13 @@
 *  Status:  vector/matrix support routine.
 *
 *  Returned:
-*     P        d(3)      p-vector
+*     P        d(3)      zero p-vector
 *
-*  This revision:  2000 November 25
+*  This revision:  2020 August 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -58818,19 +58909,17 @@
 
       DOUBLE PRECISION P(3)
 
-      INTEGER I
-
 * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-      DO 1 I=1,3
-         P(I) = 0D0
- 1    CONTINUE
+      P(1) = 0D0
+      P(2) = 0D0
+      P(3) = 0D0
 
 *  Finished.
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -58939,16 +59028,16 @@
 *  Status:  vector/matrix support routine.
 *
 *  Returned:
-*     PV       d(3,2)      pv-vector
+*     PV       d(3,2)      zero pv-vector
 *
 *  Called:
 *     iau_ZP       zero p-vector
 *
-*  This revision:  2006 November 13
+*  This revision:  2020 August 25
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -58968,7 +59057,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
@@ -59081,9 +59170,9 @@
 *
 *  This revision:  2012 April 3
 *
-*  SOFA release 2020-07-21
+*  SOFA release 2021-01-25
 *
-*  Copyright (C) 2020 IAU SOFA Board.  See notes at end.
+*  Copyright (C) 2021 IAU SOFA Board.  See notes at end.
 *
 *-----------------------------------------------------------------------
 
@@ -59107,7 +59196,7 @@
 
 *+----------------------------------------------------------------------
 *
-*  Copyright (C) 2020
+*  Copyright (C) 2021
 *  Standards Of Fundamental Astronomy Board
 *  of the International Astronomical Union.
 *
