@@ -10,8 +10,10 @@
         real(wp),dimension(3,len_data_1961),intent(out) :: pxyz_1961, vxyz_1961
 
         integer                             :: i
-        double precision                    :: gmst, era
-        double precision                    :: iau_GMST06, iau_ERA00
+        double precision                    :: t2m
+        double precision                    :: RMATN(3,3)
+        double precision                    :: eo
+        double precision                    :: iau_EO06A
         real(wp)                            :: tt, ut
         real(wp),dimension(7,len_data_1961) :: data_1961
         real(wp),dimension(len_data_1961)   :: e, M, q, Ra, ic, ap
@@ -66,19 +68,42 @@
                         -(sin(Ra)*sin(ap)-cos(Ra)*cos(ic)*cos(ap))*vy
         vxyz_1961(3,:) =  sin(ic)*sin(ap)*vx+sin(ic)*cos(ap)*vy
 
+        ! V(true) = RMATN * V(mean)
+        ! [?    [... ... ...    [1
+        !  ?  =  ... ... ...  *  0
+        !  ?]    ... ... ...]    0]
+        ! [?    [RMATN(1, 1)
+        !  ?  =  RMATN(2, 1)
+        !  ?]    RMATN(3, 1)]
+        ! true -> mean = atan2(RMATN(2, 1), RMATN(1, 1))
+        ! mean -> true = -atan2(RMATN(2, 1), RMATN(1, 1))
         do i = 1, len_data_1961
             tt = t_1961(i)
-            call tt2ut1(tt, ut)
-            gmst = iau_GMST06(2400000.5D0, ut, 2400000.5D0, tt) ! EQX -> TIO
-            era  = iau_ERA00 (2400000.5D0, ut)                  ! CIO -> TIO
-            pxyz_1961(1:2,i) = [cos(gmst-era)*pxyz_1961(1,i) &
-                               +sin(gmst-era)*pxyz_1961(2,i), &
-                               -sin(gmst-era)*pxyz_1961(1,i) &
-                               +cos(gmst-era)*pxyz_1961(2,i)]
-            vxyz_1961(1:2,i) = [cos(gmst-era)*vxyz_1961(1,i) &
-                               +sin(gmst-era)*vxyz_1961(2,i), &
-                               -sin(gmst-era)*vxyz_1961(1,i) &
-                               +cos(gmst-era)*vxyz_1961(2,i)]
+            call iau_NUM06A(2400000.5D0, tt, RMATN)
+            t2m = atan2(RMATN(2, 1), RMATN(1, 1))
+            pxyz_1961(1:2,i) = [cos(-t2m)*pxyz_1961(1,i) &
+                               +sin(-t2m)*pxyz_1961(2,i), &
+                               -sin(-t2m)*pxyz_1961(1,i) &
+                               +cos(-t2m)*pxyz_1961(2,i)]
+            vxyz_1961(1:2,i) = [cos(-t2m)*vxyz_1961(1,i) &
+                               +sin(-t2m)*vxyz_1961(2,i), &
+                               -sin(-t2m)*vxyz_1961(1,i) &
+                               +cos(-t2m)*vxyz_1961(2,i)]
+        end do
+
+        ! cio -> eqx = eo
+        ! eqx -> cio = -eo
+        do i = 1, len_data_1961
+            tt = t_1961(i)
+            eo = iau_EO06A(2400000.5D0, tt)
+            pxyz_1961(1:2,i) = [cos(-eo)*pxyz_1961(1,i) &
+                               +sin(-eo)*pxyz_1961(2,i), &
+                               -sin(-eo)*pxyz_1961(1,i) &
+                               +cos(-eo)*pxyz_1961(2,i)]
+            vxyz_1961(1:2,i) = [cos(-eo)*vxyz_1961(1,i) &
+                               +sin(-eo)*vxyz_1961(2,i), &
+                               -sin(-eo)*vxyz_1961(1,i) &
+                               +cos(-eo)*vxyz_1961(2,i)]
         end do
 
         do i = 1, len_data_1961
