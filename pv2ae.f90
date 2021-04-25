@@ -9,7 +9,7 @@
         real(wp),intent(out) :: a, e
 
         real(wp),parameter :: pi = 3.141592653589793_wp
-        real(wp),dimension(3) :: vh, ve
+        real(wp),dimension(3) :: vh, ve, vp
 
         vh = [p(2)*v(3)-p(3)*v(2), &
               p(3)*v(1)-p(1)*v(3), &
