@@ -90,8 +90,6 @@
             etae = (etae1*((pi-th12)*costh12+sinth12)+etae2)*(Ae/(sum(p**2)))
             ps = pes-p/AU
             f = an*(etae*np-ps/norm2(ps))
-            print *, norm2(etae*np)
-            print *, norm2(ps/norm2(ps))
             !f = an*(etae*np-npes)
             !f = an*(-npes)
         else
