@@ -11,6 +11,7 @@
 
         real(wp),parameter :: pi = 3.141592653589793_wp
         real(wp),parameter :: E = 1358.0_wp
+        !real(wp),parameter :: Es = 1350.0_wp
         real(wp),parameter :: c = 299792458.0_wp
         !real(wp),parameter :: m = 180.0_wp
         real(wp),parameter :: m = 156.995_wp*0.45359237_wp
