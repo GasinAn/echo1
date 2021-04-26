@@ -11,6 +11,7 @@
 
         real(wp),parameter :: pi = 3.141592653589793_wp
         real(wp),parameter :: Es = 1358.0_wp
+        !real(wp),parameter :: Es = 1350.0_wp
         real(wp),parameter :: c = 299792458.0_wp
         !real(wp),parameter :: m = 180.0_wp
         real(wp),parameter :: m = 156.995_wp*0.45359237_wp
@@ -89,6 +90,8 @@
             etae = (etae1*((pi-th12)*costh12+sinth12)+etae2)*(Ae/(sum(p**2)))
             ps = pes-p/AU
             f = an*(etae*np-ps/norm2(ps))
+            print *, norm2(etae*np)
+            print *, norm2(ps/norm2(ps))
             !f = an*(etae*np-npes)
             !f = an*(-npes)
         else
