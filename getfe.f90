@@ -65,6 +65,7 @@
         end do
 
         !print *, norm2(dft)/norm2(f)
+        !print *, norm2(dft)*(3986004.415D8/6378136.3_wp**2)
         f = [rt2c(1,1)*f(1)+rt2c(1,2)*f(2)+rt2c(1,3)*f(3), &
              rt2c(2,1)*f(1)+rt2c(2,2)*f(2)+rt2c(2,3)*f(3), &
              rt2c(3,1)*f(1)+rt2c(3,2)*f(2)+rt2c(3,3)*f(3)]
