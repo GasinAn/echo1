@@ -22,7 +22,7 @@
         real(wp) :: x, y, z, r, cth, sth, cph, sph
         real(wp),dimension(0:n_max) :: mph, cmph, smph
         real(wp),dimension(0:n_max) :: ccss, sccs, fr, fth, fph
-        real(wp),dimension(3) :: df
+        real(wp),dimension(3) :: df, dft
 
         call getrc2trt2c(t, rc2t, rt2c)
 
@@ -47,6 +47,7 @@
         cph = cmph(1)
         sph = smph(1)
 
+        !dft = 0
         f = -[x,y,z]/r**3
         do n = 2, n_max
             ccss(0:n) = c_matrix(n,0:n)*cmph(0:n)+s_matrix(n,0:n)*smph(0:n)
@@ -60,8 +61,10 @@
                   (df(1)*sth+df(2)*cth)*sph+df(3)*cph, &
                   (df(1)*cth-df(2)*sth)]
             f = f+df/r**(n+2)
+            !if (n>(n_max/2)) dft = dft+df/r**(n+2)
         end do
 
+        !print *, norm2(dft)/norm2(f)
         f = [rt2c(1,1)*f(1)+rt2c(1,2)*f(2)+rt2c(1,3)*f(3), &
              rt2c(2,1)*f(1)+rt2c(2,2)*f(2)+rt2c(2,3)*f(3), &
              rt2c(3,1)*f(1)+rt2c(3,2)*f(2)+rt2c(3,3)*f(3)]
