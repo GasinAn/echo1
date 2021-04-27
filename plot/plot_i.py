@@ -773,9 +773,16 @@ srp3=[
 47.1132345508725,
 ]
 
-plt.plot(t,np.array(data),c='black')
 plt.plot(t,np.array(srp0),c='red')
-plt.plot(t,np.array(srp1),c='yellow')
+#plt.plot(t,np.array(srp1),c='yellow')
 plt.plot(t,np.array(srp2),c='green')
 plt.plot(t,np.array(srp3),c='blue')
-plt.show()
+plt.plot(t,np.array(data),c='black')
+plt.legend(('NoRP','SRP','2RP','ObsData'))
+plt.xlabel('MJD')
+plt.ylabel('$i$/deg')
+#plt.show()
+#plt.savefig('i.png',dpi=800)
+print(np.array(srp0)[-1]-np.array(data)[-1])
+print(np.array(srp2)[-1]-np.array(data)[-1])
+print(np.array(srp3)[-1]-np.array(data)[-1])

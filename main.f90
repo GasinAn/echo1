@@ -47,9 +47,9 @@
         !call easydop853(f_srp2, t, i*86400/s, pv)
         call easydop853(f_srp3, t, i*86400/s, pv)
         !print *, pv
-        !call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
+        call pv2ae(pv(1:3), pv(4:6), a_echo, e_echo)
         !call pv2m(pv(1:3), pv(4:6))
-        !print *, a_echo*(1-e_echo)*6.3781363_wp, e_echo
+        print *, a_echo*(1-e_echo)*6.3781363_wp, e_echo
         !print *, i+1
         !print *, pxyz_1961(:,i+1)
         !print *, vxyz_1961(:,i+1)
