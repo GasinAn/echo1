@@ -1,23 +1,20 @@
 import numpy as np
-from scipy.optimize import curve_fit
 from astropy.time import Time
 from matplotlib import pyplot as plt
 
-mjd = np.arange(41685, 59218)
+def mjd2y(mjd):
+    y = 1961+(mjd-37300)/365.25
+    return y
+
+def dt_1961_1986(y):
+    dy = y-1975
+    dt = 45.45+1.067*dy-dy**2/260-dy**3/718
+    dt = dt/86400
+    return dt
+
+mjd = np.arange(41685, 46434)
 t = Time(mjd, format='mjd', scale='tt')
-tt, dt_tt_ut1 = t.tt.mjd, t.tt.mjd-t.ut1.mjd
-
-def func(t, a, b, c, A, w, p):
-    return a*t**2+b*t+c+A*np.sin(w*t+p)
-
-lbounds = [-1e-12, 1e-9, -np.inf,
-           -np.inf, 2*np.pi/8000, -np.inf]
-ubounds = [-1e-16, 1e-6, +np.inf,
-           +np.inf, 2*np.pi/6000, +np.inf]
-popt, pcov = curve_fit(func, tt, dt_tt_ut1, bounds=(lbounds, ubounds))
-print(popt)
-print(pcov)
-
-plt.plot(tt, dt_tt_ut1)
-plt.plot(tt, func(tt, *popt))
+tt, dt_tt_ut1, dt = t.tt.mjd, t.tt.mjd-t.ut1.mjd, dt_1961_1986(mjd2y(mjd))
+print(np.std((dt-dt_tt_ut1)*86400, ddof=1))
+plt.plot(tt, dt_tt_ut1*86400, tt, dt*86400)
 plt.show()
