@@ -627,5 +627,8 @@ from matplotlib.ticker import MultipleLocator
 ax.yaxis.set_minor_locator(MultipleLocator(1))
 ax.yaxis.grid(True,which='major')
 ax.yaxis.grid(True,which='minor')
+plt.legend(('NoRP','SRP','2RP','ObsData'))
+plt.xlabel('MJD')
+plt.ylabel('$M$/revolution')
 #plt.show()
 plt.savefig('M.png',dpi=800)
